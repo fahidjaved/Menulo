@@ -1,0 +1,16 @@
+{% extends 'admin/base_site.html' %}
+{% load static %}
+
+{% block branding %}
+
+{% block extrastyle %}
+  <link rel='stylesheet' href='{% static '/main/css/admin.css' %}'>
+{% endblock %}
+
+<h1 = 'head'>
+    
+<img src="{% static '/main/images/menulo_logo_header_white_s50.png' %}" alt="menulo_logo" class="brand_img" height="30" width="93">
+    
+
+  </h1>
+{% endblock %}

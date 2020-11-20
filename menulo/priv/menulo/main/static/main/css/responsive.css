@@ -1,0 +1,1082 @@
+/* ==================================================================
+ * Responsive Mobile  Query CSS
+================================================================== */
+
+@media only screen and (min-width:1450px) {
+  /* ========= Home Latest Blog =============*/   
+  .latest-blog .featured-content {
+    padding: 60px;
+  }
+  .latest-blog .featured-icon {
+    top: 80px;
+  }
+}
+
+@media only screen and (max-width:1200px) {
+  /* ========= Navbar Menu =============*/
+  .navbar-default .dropdown-menu .item-with-thumbnail a {
+    width: 144px;
+  }
+  .dropdown-menu .yamm-content .mm-products-carousel a.btn-style-2 {
+    padding: 15px 30px;
+  }
+
+  /* =========Home Feature=============*/
+  .home-feature-wrap:first-child {
+    margin-top: 90px;
+    margin-bottom: 40px;
+  }
+  .home-feature-wrap {
+    margin-bottom: 40px;
+  }
+  .home-feature-wrap p {
+    padding-top: 0px;
+  }
+
+  /* =========Reservation=============*/
+  .reservation-form {
+    padding-top: 0px;
+  }
+
+  /* =========SignIn & SignUp=============*/
+  .signup-wrap .social-login {
+    padding: 30px 50px;
+  }
+  .signup-title,
+  .signin-title {
+    padding: 35px 50px 15px;
+  }
+  .singup-form-body,
+  .singin-form-body {
+    padding: 20px 50px 35px;
+  }
+  /* ========= Shop =============*/
+  .woocommerce ul.product_list_widget li .star-rating {
+    float: none;
+    left: 125px;
+    margin-top: 42px;
+    position: absolute;
+  }
+
+  /* =========Shop List View=============*/
+  .list-view .product-name {
+    padding: 25px 0 15px;
+  }
+  .list-view .product-hover-wrap {
+    margin: 25px 0 0;
+  }
+  .wizard > .steps a{
+    line-height: 21px;
+  }
+  
+  /* =========Comment=============*/
+  .comment-wrapper .children {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (min-width:993px) and (max-width:1200px) {
+  /* =========About Page=============*/
+  .team-member-title-tag {
+    padding-top: 10px;
+  }
+
+  /* =========Footer Widget=============*/
+  .footer-widget-2 .widget-content,
+  .footer-widget-3 .widget-content {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width:992px) {
+  /* ========= Navbar Menu =============*/
+  .nav > li > a {
+    padding: 0px 5px;
+  }
+  .navbar-header a,
+  .navbar-default ul li a {
+    padding-right: 15px;
+  }
+  .dropdown-menu .mm-products-carousel .add-wishlist {
+    margin-top: 8px;
+    margin-left: 50px;
+  }
+  .dropdown-menu .mm-products-carousel .add-wishlist:hover {
+    color: #fff;
+  }
+  .navbar-nav > li.megamenu > ul.dropdown-menu > li ul.dropdown-menu li a,
+  .navbar-nav > li.megamenu > ul.dropdown-menu > li a {
+    min-width: 100%;
+  }
+
+  /* =========Home Recipe=============*/
+  .home-feature-wrap:first-child {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .home-feature-wrap {
+    margin-bottom: 20px;
+  }
+  .feature-icon-right {
+    float: left;
+    margin-right: 15px;
+    margin-left: 0;
+  }
+  .home-feature-wrap .text-right {
+    text-align: left;
+  }
+  .home-feature-wrap p {
+    padding-top: 10px;
+  }
+  .recipe-content {
+    padding: 10px 10px 10px;
+  }
+
+  /* =========Home latest blog=============*/
+  .latest-blog .featured-content {
+    padding: 30px;
+  }
+
+  /* =========Comment=============*/
+  .comment-wrapper .children {
+    margin-left: 25px;
+  }
+
+  /* =========Service Page=============*/
+  .service-featured-content {
+    padding: 15px 15px 5px;
+  }
+  .service-featured-icon ul li {
+    margin: 0 6px 10px 0;
+  }
+  .service-featured-icon ul li:last-child {
+    margin-right: 0;
+  }
+
+  /* =========About Page=============*/
+  .team-member-title-tag {
+    padding-top: 0px;
+    margin-top: 15px;
+  }
+  .head-chef-wrapper {
+    margin-top: 15px;
+  }
+  
+  /* =========Recipe Page=============*/
+  .recipe-tags-gap{
+    margin-top: 0;
+  }
+
+  /* =========Shop Bottom=============*/
+  .paymentimg {
+    padding-left: 0;
+    padding-top: 15px;
+  }
+  .disclaimer {
+    text-align: left;
+  }
+  .disclaimer-txt {
+    padding: 0 15px;
+  }
+
+  /* =========Single Product=============*/
+  .single-cart,
+  .single-product-price {
+    margin-top: 15px;
+  }
+  .single-product-filter{
+    margin-top: 25px;
+  }
+  .single-product-description {
+    margin-top: 10px;
+  }
+  .single-product-title {
+    margin: 0 0 10px;
+  }
+  .single-product-description {
+    margin-top: 10px;
+  }
+  .single-cart .single-qty > input {
+    width: 40px;
+  }
+  .single-cart .increment,
+  .single-cart .decrement {
+    width: 30px;
+  }
+  .single-cart .add-wishlist {
+    margin-left: 5px;
+  }
+  .product-side-title {
+    margin: 30px 0 15px;
+  }
+  .slider-thumbs.owl-theme .owl-nav [class*="owl-"] {
+    line-height: 25px;
+  }
+  .nav.nav-tabs > li > a {
+    padding: 10px 8px;
+  }
+
+  /* =========Footer=============*/
+  .footer-widget-3,
+  .footer-widget-4 {
+    margin-top: 40px;
+  }
+  .footer-widget-3 {
+    border-left: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+  /* ========= Navbar Menu =============*/
+  .item-with-thumbnail img {
+    border-radius: 50%;
+    float: left;
+    height: 40px;
+    width: 40px;
+  }
+  .navbar-default .dropdown-menu .item-with-thumbnail a {
+    border: 0;
+    margin-top: 0;
+    padding-top: 0;
+    width: 94px;
+  }
+  .dropdown .item-with-thumbnail a span {
+    float: right;
+  }
+
+  /* =========SignIn & SignUp=============*/
+  .signup-title,
+  .signin-title {
+    padding: 20px 50px 15px;
+  }
+  .singup-form-body {
+    padding: 5px 50px 10px;
+  }
+  .singin-form-body {
+    padding: 15px 50px 25px;
+  }
+  .redchili-signup .input-style-1,
+  .redchili-signin .input-style-1 {
+    margin-bottom: 10px;
+  }
+  .newsletter-subscribe,
+  .remember-me {
+    padding-bottom: 15px;
+  }
+  .need-help {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+  .social-login {
+    padding: 20px 50px;
+  }
+  .social-login > p {
+    margin-bottom: 10px;
+  }
+  .signup-wrap .social-login {
+    padding: 20px 50px;
+  }
+
+  /* =========Shop List View=============*/
+  .list-view .product-hover-wrap {
+    margin: 10px 0 0;
+  }
+  
+  /* ========= Single Product =============*/
+  .product-side-title {
+    margin: 20px 0 5px;
+    padding-bottom: 5px;
+  }
+  .social-footer {
+    float: left;
+  }
+}
+@media only screen and (min-width: 768px){
+  /*mega menus*/
+  #header-menu{
+    position: relative;
+  }
+  .navbar-nav > li.megamenu { 
+    position: inherit !important;
+  }
+  .navbar-nav > li.megamenu > ul.dropdown-menu .dropdown-submenu > a::after { 
+    display: none 
+  }
+  .navbar-nav > li.megamenu > ul.dropdown-menu {
+    padding: 15px 0 0;
+    width: 100%;
+  }
+  .navbar-nav > li.megamenu > ul.dropdown-menu > li { 
+    float: left !important; 
+    padding: 0px 15px; 
+    width: 100%; 
+  }
+  .navbar-nav > li.megamenu.column-1 > ul.dropdown-menu > li { width: 100% }
+  .navbar-nav > li.megamenu.column-2 > ul.dropdown-menu > li { width: 50% }
+  .navbar-nav > li.megamenu.column-2 > ul.dropdown-menu > li:nth-child(3n) { clear: both }
+  .navbar-nav > li.megamenu.column-3 > ul.dropdown-menu > li { width: 33.33% }
+  .navbar-nav > li.megamenu.column-3 > ul.dropdown-menu > li:nth-child(4n) { clear: both }
+  .navbar-nav > li.megamenu.column-4 > ul.dropdown-menu > li { width: 25% }
+  .navbar-nav > li.megamenu.column-4 > ul.dropdown-menu > li:nth-child(5n) { clear: both }
+  .navbar-nav > li.megamenu.column-5 > ul.dropdown-menu > li { width: 20% }
+  .navbar-nav > li.megamenu.column-5 > ul.dropdown-menu > li:nth-child(6n) { clear: both }
+  .navbar-nav > li.megamenu.column-6 > ul.dropdown-menu > li { width: 16.66% }
+  .navbar-nav > li.megamenu.column-6 > ul.dropdown-menu > li:nth-child(7n) { clear: both }
+
+  .navbar-nav > li.megamenu > ul.dropdown-menu > li ul {
+    border: medium none !important;
+    box-shadow: none !important;
+    display: block !important;
+    left: auto !important;
+    position: relative !important;
+    width: 100%;
+  }
+  .navbar-nav > li.megamenu > ul.dropdown-menu > .menu-item-has-children { 
+    margin-bottom: 12px 
+  }
+  .navbar-nav > li.megamenu > ul.dropdown-menu > .menu-item-has-children > a {
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  .navbar-nav > li.megamenu > ul.dropdown-menu > .menu-item-has-children > a:hover {
+    background: none 
+  }
+}
+@media only screen and (max-width:768px) {
+  /* ========= Home Slider =============*/
+  .slide-caption-2,
+  .slide-caption-3 {
+    text-align: center;
+  }
+
+  /* ========= Home Client =============*/ 
+  .redchili-clients{
+    padding-bottom: 30px;
+  }
+  
+  /* ========= About Page =============*/
+  .team-member-title{
+    margin-top: 20px;
+  }
+  .team-member-details{
+    padding-bottom: 40px;
+  }
+  /* ========= Single Product Page =============*/
+  .redchili-product-related{
+    padding-bottom: 15px;
+  }
+
+  /* ========= Shop Cart Item =============*/
+  .cart-checkout-box {
+    margin-top: 30px;
+  }
+
+  /* =========Shop Bottom=============*/
+  .shop-bottom-icos {
+    text-align: center;
+  }
+  .icontxt-wrapper {
+    display: inline-block;
+    text-align: left;
+  }
+
+  /* =========Comment=============*/
+  .comment-wrapper .media-left img {
+    height: 60px;
+    width: 60px;
+  }
+  .comment-wrapper .media-body {
+    padding-left: 5px;
+  }
+  /* ========= Margin and Padding Reduce on Tab =============*/
+  .mg-top-80{
+    margin-top: 60px;
+  }
+  .mg-bottom-80{
+    margin-bottom: 60px;
+  }
+  .mg-top-60{
+    margin-top: 50px;
+  }
+  .mg-bottom-60{
+    margin-bottom: 50px;
+  }
+  .mg-bottom-35{
+    margin-bottom: 25px;
+  }
+  .textarea-style-1{
+    margin-bottom: 25px;
+  }
+  .pd-top-80,
+  .redchili-footer{
+    padding-top: 60px;
+  }
+  .pd-bottom-80{
+    padding-bottom: 60px;
+  }
+  .pd-top-60{
+    padding-top: 50px;
+  }
+  .pd-bottom-60{
+    padding-bottom: 50px;
+  }
+  .woocommerce-shipping-fields h3{
+    clear: left;
+  }
+}
+
+@media only screen and (max-width:767px) {  
+  /* ========= Equal Height =============*/
+  .equal-height-wrap,
+  .equal-height-inner {
+    display: block;
+  }
+  .modal .equal-height-wrap {
+    display: table;
+  }
+  .modal .equal-height-inner {
+    display: table-cell;
+  }
+
+  /* ========= Navbar Menu =============*/
+  .navbar-nav {
+    margin-top: 0;
+  }
+  .nav > li > a {
+    padding: 0px 15px;
+  }
+  .navbar .nav > li {
+    border-bottom: 1px solid #e2001a;
+  }
+  .navbar .nav > li > a:hover {
+    border-bottom: 1px solid #e2001a;
+    background: #e2001a;
+  }
+  .navbar-collapse {
+    position: relative;
+    z-index: 1000;
+  }
+  .navbar-header a,
+  .navbar-default ul {
+    background: #000;
+  }
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:hover,
+  .navbar-default .navbar-nav > .open > a:focus,
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: #E1001A;
+    color: #fff;
+  }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #e2001a;
+    color: #fff;
+  }
+  nav .dropdown-menu > li {
+    border-bottom: 1px solid #f1f1f1;
+    margin-left: 30px;
+  }
+  nav .dropdown-menu > li:last-child {
+    border-bottom: 0 none;
+  }
+  .navbar-nav .open .dropdown-menu > li > a {
+    border: 0;
+    line-height: 50px;
+    padding: 0 0 0 5px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    line-height: 50px;
+  }
+  .navbar-right {
+    line-height: 40px;
+  }
+  .navbar {
+    border: none;
+    background: #000;
+  }
+
+  /* ========= Call To Action =============*/
+  .support-action-wrapper {
+    overflow: hidden;
+    width: 100%;
+  }
+  .support-action-wrapper h2{
+    line-height: 1.1;
+  }
+  .btn-call-to-action {
+    float: left;
+    position: relative;
+    right: 0;
+    top: 0;
+    -webkit-transform: none;
+    transform: none;
+    margin-top: 10px;
+  }
+
+  /* =========Home Page=============*/
+  .redchili-home-feature{
+    margin-bottom: 10px;
+  }
+  .home-feature-wrap:first-child {
+    margin-top: 20px;
+  }
+  .latest-blog .featured-image {
+    height: 220px;
+    width: 100%;
+  }
+  .latest-blog .featured-content {
+    width: 100% !important;
+  }
+  .latest-blog .featured-icon {
+    display: none;
+  }
+  .latest-blog.bottom-side,
+  .bottom-side .featured-content,
+  .bottom-side .featured-image {
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=2);
+  }
+  .redchili-clients img {
+    max-width: 170px;
+    padding: 0 30px;
+  }
+  .redchili-clients img:hover {
+  max-width: 170px;
+  padding: 0 30px;
+}
+
+  /* =========SignIn & SignUp=============*/
+  .redchili-signin,
+  .redchili-signup {
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 420px;
+  }
+
+  /* =========Menu card=============*/
+  .menu-card-right .menu-card-rightside {
+    float: none;
+  }
+  .menu-card-into-bg {
+    background: transparent;
+  }
+  .menu-card-into {
+    padding-bottom: 20px;
+    padding-top: 25px;
+  }
+  .menu-card-title {
+    color: #fff;
+  }
+  .opening-time,
+  .menu-card-into p {
+    color: #f1f1f1;
+  }
+  .menu-card-tab {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .menu-card-tab .nav > li {
+    border-bottom: 0;
+  }
+  .menu-card-tab-content .tab-pane {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .single-menu-card-img {
+    margin-left: 0;
+  }
+  .menu-card-left .single-menu-card-img {
+    margin-right: 0;
+    right: 15px;
+  }
+  .single-menu-card-content {
+    margin-left: 110px;
+  }
+  .menu-card-left .single-menu-card-content {
+    margin-right: 110px;
+  }
+  .widget-content,
+  .footer-widget-title,
+  .footer-widget-1,
+  .footer-widget-2,
+  .footer-widget-3,
+  .footer-widget-4,
+  .footer-widget.widget_redchili_widget_openinghour .widget-title, 
+  .footer-widget.widget_redchili_widget_flickrphoto .widget-title, 
+  .footer-widget.widget_text .widget-title {
+    text-align: center;
+  }
+
+  /* ========= List Blog page =============*/
+  .list-blog-thumbnail {
+    height: 220px;
+    margin: 0 20px;
+  }
+  .single-list-blog {
+    border: 0;
+  }
+  .list-blog-content {
+    padding: 30px 30px 0 30px;
+  }
+  
+  /* ========= Blog Sidebar =============*/
+  .sidebar-left,
+  .sidebar-right {
+    margin-top: 40px;
+  }
+
+  /* =========Service Page=============*/
+  .service-featured-img {
+    height: 330px
+  }
+  .service-details-wide p {
+    padding: 25px 10px;
+  }
+  .service-info-wrap p {
+    padding: 15px 0px;
+  }
+
+  /* =========About Page=============*/
+  .about-featured-content {
+    padding: 30px 30px 20px;
+  }
+  .about-featured-img {
+    height: 330px
+  }
+  .about-address-wrap {
+    margin-bottom: 0px;
+  }
+
+  /* =========Reservation=============*/
+  .redchili-reservation .social-login {
+    border: 0;
+    padding: 0;
+  }
+  .contact-form{
+    padding-bottom: 50px;
+  }
+  .redchili-reservation .reservation-form{
+    margin-bottom: 45px;
+    margin-top: 0px;
+  }
+
+  /* =========Shop Bottom=============*/
+  .paymentimg {
+    padding-top: 30px;
+  }
+
+  /* =========Single product===========*/
+  .slider-thumbs .owl-controls {
+    margin-top: 10px;
+  }
+  .slider-thumbs.owl-theme .owl-nav {
+    text-align: left;
+  }
+  .product-side-title {
+    margin: 10px 0;
+    padding-bottom: 5px;
+  }
+  .woocommerce-product-gallery .flex-viewport {
+    float: left;
+    margin-right: 1%;
+    margin-left: 0;
+  }
+  .redchili-single-product .onsale {
+    left: auto;
+  }
+  .side-scoail-share, 
+  .side-product-rating {
+    float: right;
+  }
+  .woocommerce div.product div.images .woocommerce-product-gallery__trigger {
+    right: 44%;
+  }
+
+  /* =========Cart Page=============*/
+  .table-responsive {
+    border: 1px solid #f1f1f1;
+  }
+  .cart-table .table-responsive {
+    border-top: 0;
+    border-bottom: 0;
+    margin-bottom: 45px;
+  }
+  .cart-short-desc > h4 {
+    margin-top: 10px;
+  }
+
+  /* =========CheckOut Steps=============*/
+  .redchili-checkout .steps {
+    float: left;
+    width: 100%;
+  }
+  .steps ul li a::before {
+    top: 10px;
+  }
+  .wizard > .steps a,
+  .wizard > .steps a:hover,
+  .wizard > .steps a:active {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 10px 20px 10px 40px;
+  }
+  .redchili-checkout .content {
+    float: left;
+    width: 100%;
+  }
+  .redchili-checkout .actions {
+    width: 100%;
+  }
+
+  /* =========Footer=============*/
+  .footer-widget-2 {
+    margin-top: 40px;
+    border-left: 0;
+  }
+  .redchili-footer .widget-title {
+    margin-bottom: 20px;
+  }
+
+  /* =========Footer Widget=============*/
+  .footer-widget-2 .widget-content,
+  .footer-widget-3 .widget-content {
+    margin-right: 0px;
+  }
+  .text-center-xs {
+    text-align: center;
+  }
+  .redchili-footer-bottom{
+    text-align: center;
+  }
+  .social-footer{
+    float: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+  /* =========Client Review=============*/
+  .client-review-wrapper {
+    padding: 60px 10px 0;
+  }
+
+  /* =========Shop List View=============*/
+  .list-product-content .product-excerpt {
+    display: none;
+  }
+  .list-view .product-hover-wrap {
+    margin: 10px 0 0;
+  }
+  .list-view .product-name {
+    padding: 35px 0 30px;
+  }
+  .single-product-title {
+    margin: 10px 0;
+  }
+
+  /* =========Modal Newsletter=============*/
+  .subscrip-content {
+    padding: 0px 5px 5px 10px;
+  }
+  .subscrip-heading {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .subscrip-text {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  /* ========= Home Slider =============*/
+  .a-slide-desc-inclined{
+    text-align: left!important;
+  }
+  .rc-slide-caption-2.tp-resizeme{
+    text-align: center!important;
+  }
+  .tp-caption.slide-title-inclined {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 10px 20px;
+    margin-left: 0;
+    margin-bottom: 5px!important;
+  }
+  .tp-caption.slide-title-inclined::before {
+    display: none;
+  }
+  .slide-desc-inclined {
+    font-size: 12px!important;
+    line-height: 16px!important;
+    padding: 10px 10px!important;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .tp-caption.slide-desc-inclined::before {
+    display: none;
+  }
+  
+  .redchili-home-feature,
+  .home-feature-wrap .text-right{
+    text-align: center;
+  }
+  .feature-icon-left,
+  .feature-icon-right {
+    float: none;
+  }
+  /*.home-feature-wrap p{
+    clear: both;
+  }*/
+  .home-feature-wrap:first-child{
+    margin-top: 40px;
+  }
+  .home-feature-wrap{
+    margin-bottom: 30px;
+  }
+
+  .redchili-clients{
+    padding-bottom: 20px;
+  }
+
+  /* =========SignIn & SignUp=============*/
+  .redchili-signin,
+  .redchili-signup {
+    margin-bottom: 50px;
+  }
+
+  /* ========= Main Shop =============*/
+  .product-content .product-name {
+    padding-bottom: 13px;
+    padding-top: 13px;
+  }
+  .product-hover-wrap li a {
+    line-height: 40px;
+  }
+  ul.products li.product-list-item{
+    margin-bottom: 40px;
+  }
+
+  /* =========Shop List View=============*/
+  .list-view .product-name {
+    padding: 30px 0px 10px;
+  }
+  .recipes-list > li {
+    width: 100%;
+  }
+
+  /* =========Shop Cart=============*/
+  .cart-table .table-responsive {
+    margin-bottom: 40px;
+  }
+  .cart-checkout-box {
+    margin-top: 25px;
+  }
+
+  /* =========Shop Bottom=============*/
+  .narrow-full {
+    width: 100%;
+    margin: 0;
+  }
+  .redchili-shop-bottom i.fa {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  .icontxt-wrapper {
+    text-align: center;
+  }
+  .icontxt-wrapper > span {
+    width: 100%;
+  }
+
+  /* =========Single Tab Product=============*/
+  .redchili-product-related{
+    padding-bottom: 5px;
+  }
+  .tab-product-list{
+    margin-bottom: 40px;
+  }
+  .tab-product-desc > h4 {
+    margin-top: 10px;
+    float: left;
+  }
+  .tab-product-desc > p {
+    float: left;
+  }
+  .sidebar-product-price {
+    float: left;
+  }
+
+  /* ========= Margin and Padding Reduce on Mobile =============*/
+  .mg-top-80{
+    margin-top: 50px;
+  }
+  .mg-bottom-80{
+    margin-bottom: 50px;
+  }
+  .mg-top-60,
+  .mg-top-45,
+  .menu-card-wrap,
+  .recipe-step,
+  .redchili-product-related .tab-content{
+    margin-top: 40px;
+  }
+  .mg-bottom-60,
+  .mg-bottom-45,
+  .single-menu-card-item{
+    margin-bottom: 40px;
+  }
+  .mg-bottom-35{
+    margin-bottom: 15px;
+  }
+  .pd-top-80,
+  .redchili-footer{
+    padding-top: 50px;
+  }
+  .pd-bottom-80{
+    padding-bottom: 50px;
+  }
+  .pd-top-60,
+  .pd-top-45{
+    padding-top: 40px;
+  }
+  .pd-bottom-60,
+  .pd-bottom-45{
+    padding-bottom: 40px;
+  }
+  .team-member-details{
+    padding-bottom: 30px;
+  }
+  .page-title{
+    margin: 40px 0;
+  }
+  .recommended-products ul.products li.product-list-item {
+    margin-bottom: 0px;
+    margin-top: 30px;
+  }
+  .recommended-products .owl-controls{
+    margin-top: 15px;
+  }
+  .child-comment {
+    margin-left: 50px;
+  }
+  .recipe-post h1 {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width:375px) {
+  /* =========Home Slide=============*/
+  .tp-caption.slide-title-inclined {
+    margin-bottom: 16px!important;
+  }
+  .slide-desc-inclined {
+    font-size: 12px!important;
+    line-height: 16px!important;
+    padding: 5px 10px!important;
+  }
+  /* =========Home Page=============*/
+  .feature-icon-left,
+  .feature-icon-right {
+    margin-bottom: 10px;
+  }
+
+  .user-info > span.or{
+    padding: 0 15px;
+  }
+
+
+  .redchili-clients img {
+    max-width: 140px;
+    padding: 0 20px;
+  }
+  .redchili-clients img:hover {
+    max-width: 140px;
+    padding: 0 20px;
+  }
+
+  /* =========Shop List View=============*/
+  .list-view .product-name {
+    padding: 20px 0px 10px;
+  }
+
+  /* =========404 style=============*/
+  .not-found-left-content,
+  .not-found-right-content {
+    float: none;
+  }
+}
+
+@media (max-width: 360px) {
+  /* =========Shop Filter=============*/
+  .shop-filter .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 190px;
+  }
+  .recipe-share {
+    float: left;
+    margin-top: 5px;
+  }
+
+  /* =========CheckOut Steps=============*/
+  .checkout-register {
+    float: left;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  /* =========Home=============*/
+  .tp-caption.slide-title-inclined {
+    margin-bottom: 30px!important;
+  }
+  .slide-desc-inclined {
+    font-size: 11px!important;
+    line-height: 14px!important;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+    margin-bottom: 8px!important;
+  }
+  .redchili-home-menucard .btn-style-2{
+    padding: 15px 25px;
+  }
+
+  /* =========Shop List View=============*/
+  .product-hover-wrap li a {
+    line-height: 35px;
+  }
+  .product-content .product-name {
+    font-size: 12px;
+    line-height: 12px;
+    padding-bottom: 10px;
+  }
+
+  .list-view .product-name{
+    padding: 20px 0px 5px;
+  }
+
+  /* =========Recipe Page=============*/
+  .recipe-category-list .btn-group.bootstrap-select.redchili-input {
+    width: 180px;
+  }
+  .recipe-category-list .dropdown-menu.open {
+    max-width: 180px;
+  }
+
+  /* =========CheckOut Steps=============*/
+  .checkout-body-content label {
+    display: inline;
+  }
+  .redchili-checkout .actions ul li a {
+    margin-bottom: 10px;
+  }
+}

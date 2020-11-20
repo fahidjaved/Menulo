@@ -1,0 +1,62 @@
+{% extends "layout/BaseLayout.html" %}
+{% load static %}
+{% block content %}
+
+<div class="page-template page-template-template-fullwidth page-template-template-fullwidth-php page page-id-152 kingcomposer kc-css-system woocommerce-checkout woocommerce-page">
+<div class="page-title-bg" style="background-image:url('wp-content/themes/menulo/images/page-title-bg.jpg')">
+    <div class="page-title-overlay"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="page-title">Kontakt</h1>
+        </div>
+    </div>
+</div>
+<div class="header-breadcrumb ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ol class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li class="active">Kontakt</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page-builder page-single pd-top-80 post-152 page type-page status-publish hentry">
+    <div class="kc_clfw"></div>
+    <div class="kc-elm kc-css-118407 kc_row">
+        <div class="kc-row-container  kc-container">
+            <div class="kc-wrap-columns">
+                <div class="kc-elm kc-css-639237 kc_col-sm-12 kc_column kc_col-sm-12">
+                    <div class="kc-col-container">
+                        <div class="kc-elm kc-css-451443 kc-title-wrap ">
+                            <h1 class="kc_title">{{kontakt.page_title}}</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="kc-elm kc-css-121215 kc_row redchili-contact pd-bottom-80">
+        <div class="kc-row-container  kc-container">
+            <div class="kc-wrap-columns">
+                
+                <div class="kc-elm kc-css-37332 kc_col-sm-3 kc_column kc_col-sm-3">
+                    <div class="kc-col-container">
+                        <div class="kc-elm kc-css-608468 kc_shortcode kc_single_image">
+                            <img src="static/wp-content/uploads/2018/02/menulo_logo.svg" class="" alt="" /> </div>
+                        <div class="kc-elm kc-css-122933 kc_text_block">
+                            {{kontakt.detail_html|safe}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+</div>
+{% endblock %}

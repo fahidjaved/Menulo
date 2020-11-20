@@ -1,0 +1,377 @@
+#header{
+    background: #e2001a;
+    color: #000;
+  }
+  
+  
+.main > .content {
+      flex: 1 0;
+      max-width: 100%;
+      background: #292929;
+      color: #d1d1d1;
+  }
+  
+  h1 {
+      margin: 0 0 20px;
+      font-weight: 300;
+      font-size: 20px;
+      color: #d1d1d1;
+  }
+  
+#branding h1, #branding h1 a:link, #branding h1 a:visited {
+      color: #d1d1d1;
+  }
+  
+.module h2, .module caption, .inline-group h2 {
+      margin: 0;
+      padding: 8px;
+      font-weight: 400;
+      font-size: 13px;
+      text-align: left;
+      background: #3d3d3d;
+      color: #d1d1d1;
+  }
+
+#nav-sidebar {
+    z-index: 15;
+    flex: 0 0 275px;
+    left: -276px;
+    margin-left: -276px;
+    border-top: 1px solid transparent;
+    border-right: 1px solid #222;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+#content-related {
+      background: #292929;
+      color: #d1d1d1;
+  }
+  
+:link, :link * {
+    color: #8db2e5;
+}
+
+a:link, a:visited {
+      color: #d1d1d1;
+      text-decoration: none;
+  }
+  
+.quiet, a.quiet:link, a.quiet:visited {
+      color: #cacaca;
+      font-weight: normal;
+  }
+  
+#content-related h3 {
+      font-size: 14px;
+      color: #adc0d9;
+      padding: 0 16px;
+      margin: 0 0 16px;
+  }
+  
+.dashboard .module table th {
+      width: 100%;
+      background: #292929;
+  }
+
+.dashboard .module table td {
+    white-space: nowrap;
+    background: #292929;
+}
+  
+#content-related .module h2 {
+    background: #222;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #565656;
+    font-size: 18px;
+    color: #d1d1d1;
+}
+
+div.breadcrumbs {
+    background: #222;
+    padding: 10px 40px;
+    border: none;
+    font-size: 14px;
+    color: #d1d1d1;
+    text-align: left;
+}
+
+.module {
+    border: none;
+    margin-bottom: 30px;
+    background: #292929;
+}
+
+.object-tools a.addlink {
+    background: #3d3d3d;
+}
+
+}
+
+#nav-sidebar .module th, #nav-sidebar .module caption {
+    padding-left: 16px;
+    background: #292929;
+}
+
+.toggle-nav-sidebar {
+    z-index: 20;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 23px;
+    width: 23px;
+    border-right: 1px solid #222;
+    background-color: #222;
+    cursor: pointer;
+    font-size: 20px;
+    color: #d1d1d1;
+    padding: 0;
+    border: none;
+}
+
+.toggle-nav-sidebar:hover, .toggle-nav-sidebar:focus {
+    background-color: #3d3d3d;
+}
+
+.main.shifted > #nav-sidebar {
+    left: 24px;
+    margin-left: 0;
+    background: #292929;
+}
+
+tr:nth-child(2n+1), .row-form-errors {
+    background: #fff;
+    background: #292929;
+}
+
+#nav-sidebar .module th, #nav-sidebar .module caption {
+    padding-left: 16px;
+    background: #292929;
+}
+
+#nav-sidebar .module td {
+    white-space: nowrap;
+    background: #292929;
+}
+
+td, th {
+    font-size: 13px;
+    line-height: 16px;
+    border-bottom: 1px solid #222;
+    vertical-align: top;
+    padding: 8px;
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+    background: #292929 !important;
+}
+
+#changelist #toolbar {
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border-top: 1px solid #292929 !important;
+    border-bottom: 1px solid #292929 !important;
+    background: #292929 !important;
+    color: #d1d1d1;
+}
+
+#changelist .actions {
+    padding: 10px;
+    background: #292929 !important;
+    border-top: none;
+    border-bottom: none;
+    line-height: 24px;
+    color: #d1d1d1 !important;
+}
+
+#changelist .actions .button {
+    font-size: 13px;
+    border: 1px solid #ccc !important;
+    border-radius: 4px;
+    background: #222 !important;
+    box-shadow: 0 -15px 20px -10px rgba(0, 0, 0, 0.15) inset;
+    cursor: pointer;
+    height: 24px;
+    line-height: 1;
+    padding: 4px 8px;
+    margin: 0;
+    color: #d1d1d1 !important;
+}
+
+#changelist .actions .button:focus, #changelist .actions .button:hover {
+    border-color: #ccc;
+    background: #3d3d3d !important;
+}
+
+#changelist #toolbar form input[type="submit"]:focus, #changelist #toolbar form input[type="submit"]:hover {
+    border-color: #ccc;
+    background: #3d3d3d !important;
+}
+
+#changelist table thead th {
+    padding: 0;
+    white-space: nowrap;
+    vertical-align: middle;
+    background: #292929;
+    color: #d1d1d1;
+}
+
+thead th a:link, thead th a:visited {
+    color: #d1d1d1;
+}
+
+#changelist #toolbar form input[type="submit"] {
+    border: 1px solid #707070 !important;
+    font-size: 13px;
+    padding: 4px 8px;
+    margin: 0;
+    vertical-align: middle;
+    background: #222 !important;
+    box-shadow: 0 -15px 20px -10px rgba(0, 0, 0, 0.15) inset;
+    cursor: pointer;
+    color: #d1d1d1 !important;
+}
+
+#changelist #toolbar form #searchbar {
+    height: 19px;
+    border: 1px solid #707070;
+    padding: 2px 5px;
+    margin: 0;
+    vertical-align: top;
+    font-size: 13px;
+    max-width: 230px;
+    background: #292929;
+    color: #d1d1d1;
+}
+
+#changelist .paginator {
+    color: #d1d1d1 !important;
+    border-bottom: 1px solid #222 !important;
+    background: #222 !important;
+    overflow: hidden;
+}
+
+.submit-row {
+    padding: 12px 14px;
+    margin: 0 0 20px;
+    background: #222 !important;
+    border: 1px solid #222 !important;
+    border-radius: 4px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.submit-row input {
+    height: 35px;
+    line-height: 15px;
+    margin: 0 0 0 5px;
+    background: #3d3d3d;
+    border: 1px solid #222;
+}
+
+.submit-row input.default {
+    margin: 0 0 0 8px;
+    text-transform: uppercase;
+    background: #3d3d3d;
+    border: 1px solid #222;
+}
+
+.colM .aligned .vLargeTextField, .colM .aligned .vXMLLargeTextField {
+    width: 610px;
+    background: #3d3d3d;
+}
+
+.aligned label {
+    display: block;
+    padding: 4px 10px 0 0;
+    float: left;
+    width: 160px;
+    word-wrap: break-word;
+    line-height: 1;
+    color: #adc0d9;
+}
+
+a.section:link, a.section:visited {
+    color: #adc0d9;
+    text-decoration: none;
+}
+
+.login {
+    background: #000;
+    height: auto;
+}
+
+.aligned .form-row input {
+    margin-bottom: 0;
+    background: #333;
+    color: #d1d1d1;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="number"], input[type="tel"], textarea, select, .vTextField {
+    border: 1px solid #707070;
+    border-radius: 4px;
+    padding: 5px 6px;
+    margin-top: 0;
+    background: #333;
+    color: #d1d1d1;
+}
+
+.inline-group thead th {
+    padding: 8px 10px;
+    background: #222;
+    color: #adc0d9;
+    border: none;
+}
+
+required label, label.required {
+    font-weight: bold;
+    color: #adc0d9 !important;
+}
+
+table thead th .text a:focus, table thead th .text a:hover {
+    background: #222;
+}
+
+.form-row {
+    overflow: hidden;
+    padding: 10px;
+    font-size: 13px;
+    border-bottom: 1px solid #222 !important;
+}
+
+.colM .aligned .vLargeTextField, .colM .aligned .vXMLLargeTextField {
+    width: 610px;
+    background: #292929;
+    color: #d1d1d1;
+}
+
+.module h2, .module caption, .inline-group h2 {
+    margin: 0;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: left;
+    background: #3d3d3d;
+    color: #d1d1d1;
+}
+
+.inline-group div.add-row, .inline-group .tabular tr.add-row td {
+    color: #d1d1d1 !important;
+    background: #3d3d3d !important;
+    padding: 8px 10px;
+    border-bottom: 1px solid #222 !important;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    background: #222 !important;
+}
+
+.paginator {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 22px;
+    margin: 0;
+    border-top: 1px solid #707070 !important;
+}
+

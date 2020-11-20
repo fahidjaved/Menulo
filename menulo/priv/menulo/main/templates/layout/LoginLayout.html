@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    {% include "components/LoginStyles.html" %}
+    {% block extrastyle %}
+    {% endblock extrastyle %}
+    
+</head>
+
+<body class="login no-js login-action-login wp-core-ui  locale-de-de">
+
+
+{% block content %}
+{% endblock content %}
+
+
+{% include "components/LoginJavaScripts.html" %}
+{% block javascriptblock %}	
+{% endblock javascriptblock %}
+
+</body>
+</html>

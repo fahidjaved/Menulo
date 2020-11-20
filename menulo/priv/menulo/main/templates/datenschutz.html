@@ -1,0 +1,62 @@
+{% extends "layout/BaseLayout.html" %}
+{% load static %}
+{% block content %}
+
+<div class="page-title-bg" style="background-image:url('wp-content/themes/menulo/images/page-title-bg.jpg')">
+    <div class="page-title-overlay"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="page-title">Datenschutz</h1>
+        </div>
+    </div>
+</div>
+<div class="header-breadcrumb ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ol class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li class="active">Datenschutz</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page-builder page-single pd-top-80 post-3458 page type-page status-publish hentry">
+    <div class="kc_clfw"></div>
+    <div class="kc-elm kc-css-476577 kc_row">
+        <div class="kc-row-container  kc-container">
+            <div class="kc-wrap-columns">
+                <div class="kc-elm kc-css-427638 kc_col-sm-12 kc_column kc_col-sm-12">
+                    <div class="kc-col-container">
+                        <div class="kc-elm kc-css-36666 kc-title-wrap ">
+                            <h1 class="kc_title">
+                                {% if privacy %}
+                                {{privacy.page_title|safe}}
+                                {% endif %}</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="kc-elm kc-css-467757 kc_row">
+        <div class="kc-row-container  kc-container">
+            <div class="kc-wrap-columns">
+                <div class="kc-elm kc-css-781872 kc_col-sm-12 kc_column kc_col-sm-12">
+                    <div class="kc-col-container">
+                        <div class="kc-elm kc-css-462227 kc_text_block">
+                            {% if privacy %}
+                            {{privacy.detail_html|safe}}
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+{% endblock %}

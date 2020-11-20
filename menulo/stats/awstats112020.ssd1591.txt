@@ -1,0 +1,942 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202011 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/liveconfig/awstats.ssd1591.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2001                
+POS_TIME 2681                
+POS_VISITOR 26157               
+POS_DAY 30724               
+POS_DOMAIN 3552                
+POS_LOGIN 3787                
+POS_ROBOT 3942                
+POS_WORMS 4522                
+POS_EMAILSENDER 4653                
+POS_EMAILRECEIVER 4796                
+POS_SESSION 30866               
+POS_SIDER 31074               
+POS_FILETYPES 4931                
+POS_DOWNLOADS 5171                
+POS_OS 5219                
+POS_BROWSER 5482                
+POS_SCREENSIZE 6573                
+POS_UNKNOWNREFERER 6647                
+POS_UNKNOWNREFERERBROWSER 6805                
+POS_ORIGIN 6958                
+POS_SEREFERRALS 7099                
+POS_PAGEREFS 7280                
+POS_SEARCHWORDS 11570               
+POS_KEYWORDS 11722               
+POS_MISC 2344                
+POS_ERRORS 11781               
+POS_CLUSTER 3643                
+POS_SIDER_404 11937               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201103033317 63 15986 17691077059138
+FirstTime 20201101010941
+LastTime 20201103032337
+LastUpdate 20201103033501 63 0 63 0 0
+TotalVisits 140                 
+TotalUnique 99                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 110                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 65 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 5 230489 42 47 257443
+1 22 610 8829000 29 36 681057
+2 29 673 3055532 32 42 258167
+3 2 2 157106 30 32 318574
+4 197 1912 6219603 78 85 333476
+5 81 832 6521871 46 50 206786
+6 12 185 6647010 24 31 195526
+7 15 85 2045197 38 40 319850
+8 124 1129 9045937 38 39 157533
+9 200 2275 13057738 80 86 134544
+10 275 3152 33500412 96 102 211691
+11 128 2863 26139457 93 116 813382
+12 37 818 9381881 36 40 164473
+13 23 413 6209177 32 35 163591
+14 17 326 9569061 32 65 346771
+15 13 140 3126095 19 19 118462
+16 69 1345 31257159 54 61 561638
+17 154 3367 86434745 44 52 184794
+18 56 1371 36813259 22 23 156405
+19 26 639 12076593 27 29 171576
+20 320 1864 51648522 24 62 74259
+21 13 78 857717 15 18 131868
+22 6 9 259655 18 23 198336
+23 15 140 3239591 25 26 225510
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1837 24233 366322807
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+Googlebot/ 49 784090 20201103022623 0
+bot[\s_+:,\.\;\/\\-] 11 154902 20201103001048 0
+bingbot/ 10 153005 20201103025516 0
+crawl 9 222028 20201103032804 0
+SemrushBot/ 9 123677 20201102063143 0
+AhrefsBot/ 7 110116 20201102185711 0
+Googlebot\-Image/ 5 94907 20201102065016 0
+YandexBot/ 2 83372 20201101161023 0
+netEstate[\x20]NE[\x20]Crawler 2 151763 20201102014642 0
+bingpreview 2 40224 20201101173233 0
+facebookexternalhit/ 1 4380 20201101201443 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+Unknown 225 4490553 0 0
+svg 335 297873 0 0
+png 1558 8274610 0 0
+js 12948 99274391 0 0
+css 5395 27635243 0 0
+html 1040 13270445 0 0
+woff 572 36361525 0 0
+jpg 2160 176718167 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+win8.1 23 23
+linux 4 3
+winlong 2 2
+ios_ipad 1328 57
+ios_iphone 4672 162
+macosx8 1 1
+macosx 130 4
+win7 44 44
+Unknown 4 4
+linuxandroid 3755 138
+macosx11 1 1
+macosx10 2 2
+winxp 11 11
+win10 14256 1385
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 48
+chrome49.0.2623.112 3 3
+chrome79.0 2 2
+msie11.0 3 3
+chrome63.0.3239.132 1 1
+chrome66.0.3359.181 3 3
+opera60.0.3255.95 7 7
+chrome58.0.3029.110 1 0
+opera54.0.2952.54 2 2
+chrome85.0.4183.121 2230 74
+chrome67.0.3396.87 429 24
+chrome67.0.3396.62 2 2
+chrome79.0.3945.136 359 16
+opera53.0.2907.99 4 4
+firefox57.0 2 2
+chrome66.0.3359.117 3 3
+chrome52.0.2743.116 2 2
+chrome86.0.4240.111 3702 383
+chrome5.0.375.99 8 8
+chrome86.0.4240.114 199 8
+safari11.0 1328 57
+msie7.0 1 1
+chrome67.0.3396.99 21 21
+safari6.0.2 1 1
+safari13.0.3 133 9
+firefox82.0 9688 934
+chrome86.0.4240.75 281 10
+chrome64.0.3282.119 1 1
+opera54.0.2952.71 4 4
+Unknown 4 4
+chrome68.0.3440.106 4 4
+safari13.1.1 185 4
+safari10.1 1 1
+opera55.0.2994.44 3 3
+chrome40.0.2214.85 1 1
+opera54.0.2952.51 2 2
+chrome86.0.4240.110 1085 36
+chrome58.0.1145.75 1 1
+safari14.0 3176 111
+safari13.1.2 1308 42
+firefox58.0 1 1
+safari 3 3
+chrome84.0.4147.125 10 10
+opera53.0.2907.106 1 1
+chrome50.0.2661.75 1 1
+chrome68.0.3440.84 10 10
+chrome67.0.3396.79 8 8
+opera54.0.2952.64 8 8
+chrome65.0.3325.146 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+WhatsApp/2.20.111.3_i 20201102023303
+Go-http-client/1.1 20201102230151
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20201102230151
+WhatsApp/2.20.111.3_i 20201102023303
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 196 219
+From1 7 7
+From2 8 8
+From3 1626 23999
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_de 1 1
+www_google_com 7 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 93
+https://menulo.de/static/admin/css/fonts.css 307 307
+https://menulo.de/weko/main/dish/add/ 174 1424
+https://menulo.de/static/main/css/font-awesome.min.css 135 135
+https://menulo.de 134 5361
+https://menulo.de/weko/main/sub_categories/ 128 600
+https://menulo.de/weko/main/restaurant/ 88 314
+https://menulo.de/weko/main/image/ 73 293
+https://menulo.de/so-funktioniert-es 67 3356
+https://menulo.de/kontakt 49 688
+https://menulo.de/static/main/slider/css/settings.css 48 48
+https://menulo.de/weko/main/dish/898/change/ 1 13
+https://menulo.de/hookah-shisha-lounge/ 26 644
+https://menulo.de/details/coca-cola-12 4 59
+https://menulo.de/weko/main/dish/896/change/ 1 9
+https://menulo.de/agb 0 55
+https://menulo.de/timeout-cafe-mosbach/ 1 32
+https://menulo.de/weko/login/ 41 378
+https://menulo.de/weko/main/sub_categories/213/change/ 2 22
+http://menulo.de 4 4
+https://menulo.de/weko/auth/user/11/password/ 1 1
+https://menulo.de/static/main/images/background_login-menulo-aiveo-logo.png 1 1
+https://menulo.de/details/28-black-18 0 55
+https://menulo.de/remembar-buchen/ 7 969
+https://menulo.de/details/coca-cola-10 0 110
+https://menulo.de/dashboard/prices 39 762
+https://menulo.de/weko/main/categories/add/ 12 125
+https://menulo.de/weko/main/image/add/ 1 15
+https://menulo.de/weko/auth/user/17/change/ 2 24
+https://menulo.de/details/strawberry-colada 0 55
+https://menulo.de/purple/ 0 39
+https://menulo.de/timeless-shisha-lounge/ 5 1193
+https://menulo.de/weko/main/dish/897/change/ 1 9
+https://menulo.de/weko/main/topic/ 4 62
+https://menulo.de/details/kiss-on-the-beach 0 32
+https://menulo.de/weko/main/sub_categories/231/change/ 1 10
+https://menulo.de/static/admin/css/forms.css 0 97
+https://menulo.de/static/admin/css/widgets.css 0 27
+https://menulo.de/weko/dynamic/home/1/change/ 2 5
+https://menulo.de/details/doppelapfel-2 0 112
+https://menulo.de/weko/main/restaurant/add/ 4 22
+https://menulo.de/details/cinderella 1 57
+https://menulo.de/details/28-black-19 0 31
+https://menulo.de/locker-shisha-lounge/ 0 2
+https://menulo.de/weko/main/dish/988/change/ 2 10
+https://menulo.de/glashaus-shisha-lounge/ 2 709
+https://menulo.de/weko/main/sub_categories/232/change/ 1 14
+https://menulo.de/unique-shisha-lounge/ 3 444
+https://menulo.de/3-zusammenstellen/ 1 1
+https://menulo.de/static/main/css/bootstrap.css 15 15
+https://menulo.de/l/ 0 26
+https://menulo.de/details/okolom 0 56
+https://menulo.de/weko/ 7 16
+https://menulo.de/weko/auth/user/9/password/ 1 1
+https://menulo.de/media/recipies/home-slider-menulo-2.jpg 1 1
+https://menulo.de/habibi-shisha-lounge/ 0 3
+https://menulo.de/index.php 2 2
+https://menulo.de 2 2
+https://menulo.de/weko/main/sub_categories/add/ 37 358
+https://menulo.de/diamonds-shisha-lounge-speyer/ 0 41
+https://menulo.de/details/069 0 56
+https://menulo.de/weko/dynamic/home/ 3 16
+https://menulo.de/details/red-bull-sugarfree 0 30
+http://site.ru 8 8
+https://menulo.de/weko/main/dish/ 27 1311
+https://menulo.de/weko/auth/user/9/change/ 4 10
+https://menulo.de/weko/auth/user/11/change/ 2 2
+https://menulo.de/weko/auth/user/ 5 39
+https://menulo.de/media/recipies/Steps-menulo-2--menulo.jpg 3 3
+https://menulo.de/prince-shisha-lounge/ 4 195
+https://menulo.de/weko/main/dish/934/change/ 1 9
+https://menulo.de/weko/main/dish/933/change/ 1 9
+https://menulo.de/details/28-black-20 0 31
+https://menulo.de/login 45 143
+https://menulo.de/kontakt/ 0 56
+https://menulo.de/weko/main/topic/add/ 5 32
+https://menulo.de/royal-house-shisha-lounge/ 1 80
+https://menulo.de/weko/logout/ 1 1
+https://menulo.de/weko/main/categories/ 41 220
+https://menulo.de/dashboard/shisha 3 25
+https://menulo.de/pizza/ 0 99
+https://menulo.de/alanys-doner/ 6 854
+https://menulo.de/details/sprite-10 0 55
+https://menulo.de/1-qr-code/ 6 6
+https://menulo.de/details/moloko-9 0 56
+https://menulo.de/weko/auth/user/add/ 5 39
+https://menulo.de/weko/main/dish/1005/change/ 1 9
+https://menulo.de/el-cuervo/ 8 341
+https://menulo.de/details/vita-malz 0 56
+https://menulo.de/weko/main/dish/935/change/ 2 10
+https://menulo.de/details/elephant-bay-16 0 55
+https://menulo.de/static/admin/css/base.css 0 208
+https://menulo.de/dashboard/feedback 2 8
+https://menulo.de/remembar-mosbach/ 4 671
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 209 0
+403 14 46120
+404 528 2737340
+301 211 30653
+500 22 1635995
+206 3 13140
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 317
+/produkt/heisse-schokolade/feed/ 2 -
+//web/wp-includes/wlwmanifest.xml 1 -
+/wp-content/themes/menulo/js/isotope.pkgd.min.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/produkt/maracuja-freeze 1 -
+/shop/page/23/ 1 -
+/menucard/n1 1 -
+/menucard/schmucker-pils 1 -
+/menucard/radler 1 -
+/produkt-kategorie/alanys-doener-pizzahaus-10-getraenke 1 -
+/produkt-kategorie/el-cuervo-27-gin-tasting-special/ 1 -
+/shop/page/81 1 -
+/produkt/vegetarisch-2 1 -
+/menucard/233-captain-morgan 1 -
+/produkt-kategorie/ottamann-mi-08-longdrinks/ 2 -
+/produkt-kategorie/el-cuervo-44-salate 1 -
+/produkt/483-quesada-de-carne 1 -
+/produkt/alany-menue-1 1 -
+//wordpress/wp-includes/wlwmanifest.xml 1 -
+/product/belvedere-wodka 1 -
+/wp-content/plugins/wp-file-manager/lib/files/accesson.php 2 -
+/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/menucard/061-orangina 1 -
+/produkt-kategorie/best-doener-pizzeria-08-khalitos/page/2 1 -
+/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-gdpr.css 1 https://menulo.de/menucard/174-batida-de-coco/
+/produkt-kategorie/ottamann-mi-02-keo-tee/page/2/ 3 -
+/product/26-lahmacun/ 1 -
+/produkt-kategorie/pizza-delikat-pizza/ 1 -
+/wp-content/plugins/simple-file-list/readme.txt 2 -
+/shop/page/56 1 -
+/product/88-doener 1 -
+/wp-includes/js/zxcvbn.min.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/product/36-vegetarisch 1 -
+/produkt/jack-daniels-jennessee-honey 1 -
+/produkt/tornado 1 -
+/shop/page/81/ 1 -
+/produkt/grilled-ham-salad 1 -
+/wp-content/plugins/forget-about-shortcode-buttons/public/css/font-awesome.min.css 1 https://menulo.de/wp-content/plugins/forget-about-shortcode-buttons/public/css/button-styles.css
+/produkt-kategorie/el-cuervo-22-sweets-newcomer 1 -
+/menucard/174-batida-de-coco/ 1 -
+/produkt-kategorie/ottamann-mi-03-softdrinks/ 1 -
+//website/wp-includes/wlwmanifest.xml 1 -
+/produkt-kategorie/el-cuervo-21-creamy/page/1 1 -
+/product/27-falafel-gemueseburger 1 -
+/produkt-kategorie/el-cuervo-01-softdrinks/page/2/ 1 -
+/produkt-kategorie/ottamann-mi-12-flaschen 1 -
+/shop/page/38/ 1 -
+/produkt/cuba-perfecto 1 -
+/produkt/18-pide 1 -
+/produkt-kategorie/ottamann-mi-08-longdrinks/page/1/ 1 -
+/shop/page/101 1 -
+//site/wp-includes/wlwmanifest.xml 1 -
+/shop/page/9 1 -
+/wp-content/plugins/superstorefinder-wp/js/docs.js 2 -
+/produkt/affenhirn/ 2 -
+/wp-content/plugins/background-image-cropper/content-post.php.suspected 1 http://site.ru
+/produkt/141-natur-radler/ 3 -
+/product/riesling 1 -
+/wp-includes/js/wp-emoji-release.min.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/produkt-kategorie/ottamann-mi-11-cocktails/page/2/ 1 -
+/produkt/upgrade-schafskaese 1 -
+//cms/wp-includes/wlwmanifest.xml 1 -
+/menucard/coca-cola-classic 1 -
+/menucard/haselnuss 1 -
+/shop/page/89/ 1 -
+/produkt/new3 1 -
+/produkt/upgrade-panierter-schafskaese 1 -
+/produkt/fanta-5 1 -
+/produkt/sucuk-baguette 1 -
+/produkt/corona-2 1 -
+/shop/page/15 1 -
+/produkt/069 1 -
+//wp-includes/wlwmanifest.xml 1 -
+/produkt/46-linsensuppe 1 -
+/wp-content/themes/cameleon/includes/fileuploader/upload_handler.php 1 http://www.google.com/
+/produkt/coca-cola-light-taste/ 1 -
+/produkt/gran-rainbow 1 -
+/produkt-kategorie/el-cuervo-70-dips/ 1 -
+/produkt-kategorie/el-cuervo-44-salate/page/1 1 -
+/wp-content/plugins/superlogoshowcase-wp/js/docs.js 2 -
+/wp-content/plugins/loginizer/facebook.png 2 -
+/produkt/131-desperados/ 1 -
+/produkt/santo-domingo 1 -
+/produkt/pink-grapefruit-minze 1 -
+/product/7-days-cold-lime 1 -
+/produkt/flying-kangaroo 1 -
+/menucard/10-gemischter-salat 1 -
+/produkt/cabernet-sauvignon-reserva 1 -
+/product/remembar 1 -
+/product/jack-daniels-3 1 -
+/produkt/554-asado-de-carne-res/ 2 -
+/produkt-kategorie/el-cuervo-53-tostada 1 -
+/wp-content/themes/menulo/css/font-awesome.min.css 1 https://menulo.de/menucard/174-batida-de-coco/
+/2020/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/wp-content/themes/CP20/content-post.php 2 http://site.ru
+/shop/page/50/ 1 -
+/produkt/french-crepe 1 -
+/wp-content/plugins/contact-form-7/includes/js/scripts.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/produkt/951-wrapped-apples 1 -
+/produkt/292-20-stueck 1 -
+/product/rotwein 1 -
+/wp-content/plugins/redchili-addons/images//support@2x.png 1 https://menulo.de/remember-buchen/
+/menucard/b52 1 -
+/produkt/13-lahmacun-doenerfleisch 1 -
+/shop/page/57 2 -
+/menucard/165-havanna-cola 1 -
+/shop/page/27/ 1 -
+/product/love-66 1 -
+/produkt/tingle-tangle 1 -
+/shop/page/20 1 -
+/shop/page/106/ 1 -
+/produkt/belvedere-magnum-plus 1 -
+/produkt/20-pizza-broetchen 1 -
+/produkt-kategorie/best-doener-pizzeria-01-doener/page/1 1 -
+/produkt/schokolade 1 -
+/produkt/ketchup-2 1 -
+/produkt-kategorie/el-cuervo-50-quesadillas/feed/ 2 -
+/produkt-kategorie/el-cuervo-02-fruchtiges-von-rapps/page/1 1 -
+/shop/page/50 1 -
+/menucard/fruechte-becher 1 -
+/produkt/100-apfelsaft 1 -
+/menucard/102-ananassaft/ 1 -
+/produkt/singapore-sling 1 -
+/product/bitter-lemon 1 -
+/static/wp-content/uploads/2018/02/menulo_logo.svg 19 https://menulo.de/kontakt
+/produkt/003-espresso 1 -
+/shop/page/44 1 -
+/comments/feed/ 1 -
+/wp-admin/maint/images.php 1 http://site.ru
+/wp-includes/js/jquery/jquery.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/produkt/spezi/ 1 -
+/produkt/coldberc-hibiscus-tonic-2 1 -
+/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/wp-content/plugins/wp-file-manager/lib/files/n.php 2 -
+/shop/page/61 1 -
+/menucard/056-fanta 1 -
+/product/nachos 1 -
+/demo/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/produkt/170-southern-ginger/ 1 -
+/produkt/popcorn-colada 1 -
+/produkt/beilagensalat 1 -
+/product/schokoladen-becher/ 2 -
+/product/03-kinder-drehspiess 1 -
+/produkt/031-kraeuterharmonie 1 -
+/menucard/jaegermeister-bull 1 -
+/wp-content/plugins/wp-file-manager/readme.txt 1 -
+/produkt/38-fantasy-bolognese 1 -
+/menucard/new-1-2 1 -
+/wp-content/themes/menulo/css/responsive.css 1 https://menulo.de/menucard/174-batida-de-coco/
+/wp/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/wp-content/themes/menulo/css/owl.theme.default.min.css 2 https://menulo.de/menucard/174-batida-de-coco/
+/produkt/der-odenwaelder-kochkaes-burger 1 -
+/menucard/cola-2 1 -
+/wp-content/uploads/2020/10/content-post.php 1 http://site.ru
+/produkt-kategorie/remembar-lounge-buchen-01-shisha/page/1/ 1 -
+/produkt/32-pizza-neumann-spezial/feed/ 2 -
+/produkt/melonenschnaps-bacardi 1 -
+/menucard/177-raki 1 -
+/wp-content/uploads/2018/10/alanys_menulo_logo_dark.svg 1 -
+/new/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/menucard/apfelschorle-etc 1 -
+/wp-content/themes/menulo/js/jquery.scrollUp.min.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/produkt/031-kraeuterharmonie/ 2 -
+/wp-content/uploads/404.php 2 http://site.ru
+/produkt-kategorie/el-cuervo-66-orange-chili-pasta/feed/ 2 -
+/produkt/wasser-still 1 -
+/menucard/pina-colada 1 -
+/produkt/malibu-saft/ 1 -
+//sito/wp-includes/wlwmanifest.xml 1 -
+/menucard/sucuk-baguette 1 -
+/produkt/622-chicken-peanuts 1 -
+/produkt-kategorie/el-cuervo-38-hot-drinks/page/2/ 1 -
+/produkt-kategorie/el-cuervo-01-softdrinks/page/1/ 2 -
+/produkt/driver-caipi-ipanema/ 2 -
+/produkt/alany-menue-3 1 -
+//wp1/wp-includes/wlwmanifest.xml 1 -
+/produkt/061-orangina/ 1 -
+/produkt/moet-rose-imperial 1 -
+/shop/page/6 1 -
+/produkt-kategorie/ottamann-mi-01-warme-getraenke 1 -
+/produkt/sprite-3/ 1 -
+/recipes/banana-puddings-with-solt-pie-vanilla/ 45 https://menulo.de/recipes/banana-puddings-with-solt-pie-vanilla/
+/produkt-kategorie/el-cuervo-07-homemade/ 1 -
+/produkt/lillet-wildberry/ 1 -
+/wp-admin/includes/images.php 2 http://site.ru
+/wp-content/themes/CP20/doc.php 2 http://site.ru
+/produkt/el-passionata 1 -
+/wp-content/themes/menulo/css/bootstrap.css 1 https://menulo.de/menucard/174-batida-de-coco/
+/wp-content/uploads/2018/11/1.jpg 1 -
+/wp-content/plugins/background-image-cropper/simple.php5 1 http://site.ru
+/wp-admin/admin-ajax.php 6 -
+/produkt/aioli-2 2 -
+/wp-content/themes/menulo/css/magnific-popup.css 1 https://menulo.de/menucard/174-batida-de-coco/
+/produkt/cuervopolitan/feed/ 2 -
+/static/main/js/bootstrap-select.js.map 81 -
+/menucard/104-kirschnektar/ 2 -
+/wp-content/uploads/2018/02/menulo-app-icon-round-edges.png 1 https://menulo.de/remember-buchen/
+/produkt-kategorie/el-cuervo-21-creamy/ 1 -
+/produkt/strawberry-caipi 1 -
+/produkt/707-cheese-burger 1 -
+/test/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/admin/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/wp-content/plugins/tabs-responsive/assets/js/bootstrap.js 2 https://menulo.de/menucard/174-batida-de-coco/
+/wp-content/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/js/dnd-upload-cf7.js 2 -
+/produkt/172-bacadi-sprite/ 1 -
+/produkt-kategorie/ottamann-mi-02-keo-tee/ 4 -
+/blog/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/produkt/28-pizza-doener 1 -
+/wp-content/themes/menulo/js/jquery.steps.min.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/wp-admin/js/password-strength-meter.min.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/produkt/coca-cola-classic/ 2 -
+/wordpress/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/produkt/scavi-ray-al-cioccolata 1 -
+/comments/feed 3 -
+/shop/page/58 1 -
+/menucard/cheddar-cheese 1 -
+/wp-content/plugins/woocommerce/assets/js/frontend/password-strength-meter.min.js 2 https://menulo.de/menucard/174-batida-de-coco/
+/produkt/coca-cola-light-taste 1 -
+//wp/wp-includes/wlwmanifest.xml 1 -
+/produkt-kategorie/el-cuervo-38-hot-drinks/page/1 1 -
+/produkt/17-pizza-salami 1 -
+/produkt/salami 1 -
+/product/04-drehspiess-dueruem/ 2 -
+/produkt/upgrade-avocadowuerfel 1 -
+/wp-content/themes/deep-blue/megaframe/megapanel/inc/functions.php 1 http://www.google.com/
+/menucard/moet-rose-imperial 1 -
+/produkt/250-mozzarella-sticks 1 -
+/menucard/oliven 1 -
+/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/wp-content/themes/menulo/css/datepicker/default.time.css 2 https://menulo.de/menucard/174-batida-de-coco/
+/shop/page/67/ 1 -
+/product/teekanne 1 -
+/wp-content/plugins/wp-file-manager/lib/files/upload.php 2 -
+/produkt/melon-martini 1 -
+/shop/page/28/ 1 -
+/produkt/sprite-3/feed/ 1 -
+/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js 2 https://menulo.de/menucard/174-batida-de-coco/
+/produkt-kategorie/el-cuervo-39-keo-tee 1 -
+/wp-admin/includes/class-wp-filesystem-import.php 2 http://site.ru
+/produkt/92-salat-tonno 1 -
+/wp-content/wp-info.php 1 http://site.ru
+/produkt-kategorie/el-cuervo-22-sweets-newcomer/page/1 1 -
+/wp-content/admin.php 2 http://site.ru
+/wp-content/plugins/letme/weblinks.php 1 http://site.ru
+/produkt-kategorie/ottamann-mi-08-longdrinks/page/2/ 2 -
+/product/05-alany-teller/ 1 -
+/produkt/margherita 1 -
+/product/salzstange 1 -
+/wp-content/plugins/wp-file-manager/lib/files/thumbs.php 2 -
+/produkt/131-desperados 1 -
+/wp-content/plugins/wp-sort-order/js/front-scripts.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/produkt/12-lahmacun-vegetarisch 1 -
+/wp-content/plugins/apikey/cursed.php 1 -
+/menucard/mezzo 1 -
+/product/lillet-wildberry-2/ 1 -
+/wp-content/plugins/wp-file-manager/lib/files/x.php 2 -
+/produkt/lillet-wildberry-2/ 1 -
+/produkt/frozen-strawberry-salrita 1 -
+/produkt-kategorie/eiscafe-dolce-vita-eisbecher/feed/ 2 -
+//news/wp-includes/wlwmanifest.xml 1 -
+/shop/page/10 1 -
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 2 -
+/produkt/44-champignon-rahm 1 -
+/produkt/16-pide/ 1 -
+/produkt-kategorie/eiscafe-dolce-vita-bier 1 -
+/wp-content/plugins/super-interactive-maps/js/docs.js 2 -
+/wp-content/uploads/2020/10/blackhat.php 2 http://site.ru
+/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/wp-content/themes/menulo/js/jquery.waypoints.min.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/produkt/05-alany-teller 1 -
+/produkt-kategorie/el-cuervo-21-creamy/page/2/ 2 -
+/wp-content/plugins/tabs-responsive/assets/css/bootstrap-front.css 1 https://menulo.de/menucard/174-batida-de-coco/
+/produkt/cranberry-lime 1 -
+/produkt-kategorie/el-cuervo-29-wodka 1 -
+/produkt/wasser 1 -
+/produkt/carajillo-con-baileys 1 -
+//blog/wp-includes/wlwmanifest.xml 1 -
+/shop/page/17 1 -
+/produkt/gin-tonic 1 -
+/produkt-kategorie/el-cuervo-01-softdrinks/ 9 -
+/wp-content/common.php 1 -
+/produkt/452-haehnchen 1 -
+/produkt/120-schokolade 1 -
+//test/wp-includes/wlwmanifest.xml 1 -
+/wp-content/plugins/mystickymenu/js/detectmobilebrowser.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/produkt/027-orancuja/ 1 -
+/menucard/schmucker-alkoholfrei 1 -
+/produkt/fever-tree-mediterranean-tonic-2 1 -
+/produkt/fruechtetee 1 -
+/menucard/03-doener 1 -
+/shop/page/100/ 1 -
+/wp-content/plugins/apikey/apikey.php 1 -
+/produkt/radler 1 -
+/wp-content/themes/menulo/css/bootstrap-select.min.css 1 https://menulo.de/menucard/174-batida-de-coco/
+/produkt-kategorie/el-cuervo-27-gin-tasting-special/page/3 1 -
+/menucard/martini 1 -
+/produkt-kategorie/el-cuervo-20-sours 1 -
+/product/watermelon-chill 1 -
+/product/fanta-6 1 -
+/produkt/red-bull-3 1 -
+/menucard/19-pizza-broetchen 1 -
+/produkt/carlos-i 1 -
+/produkt-kategorie/el-cuervo-69-dessert-appetizer 1 -
+/produkt-kategorie/ottamann-mi-13-baguette 1 -
+/2019/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/product/remembar-2 1 -
+/product/187-kool-bitch 1 -
+/wp-content/themes/menulo/js/jquery-ui.min.js 1 https://menulo.de/menucard/174-batida-de-coco/
+/old/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/produkt/crispy-chicken-burger 1 -
+/produkt-kategorie/orango-test/ 3 -
+/shop/page/94 1 -
+/produkt/lemon-cooler 1 -
+/produkt-kategorie/el-cuervo-04-biere-vom-fass 1 -
+/produkt/25-lahmacun/ 2 -
+/produkt-kategorie/remembar-lounge-buchen-07-bier 1 -
+//wp2/wp-includes/wlwmanifest.xml 1 -
+/menucard/234-bacardi 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 110
+39.52.159.0 505 5188 17280900 20201102100048
+88.69.18.0 467 3896 126006313 20201102210317
+111.119.187.0 214 4072 40604579 20201102194509
+39.51.239.0 205 2013 7991033 20201102104624
+132.154.146.0 57 1341 33681077 20201102132723
+78.48.130.0 45 1527 18235063 20201102174140
+132.154.150.0 44 1395 27829653 20201101181432
+5.188.84.0 40 40 2883958 20201103004020
+89.204.155.0 20 494 3247241 20201102114335
+2a02:908:d92:5000:: 20 456 3102472 20201101201559
+95.181.86.0 1 1 66791 20201103013621
+132.148.80.0 1 1 66791 20201103024330 20201103024330 /mm.php/
+2003:ef:7f1f:ad00:: 2 74 3544527 20201102174203
+82.165.73.0 5 5 80896 20201101111210
+185.220.100.0 1 1 78456 20201101050838
+109.42.0.0 1 55 1062957 20201101190807
+2a01:598:8987:a3a9:: 2 105 1784644 20201102172317
+2a00:20:9023:f77:: 2 74 3544430 20201101195441
+2a00:20:9007:409e:: 6 131 1830605 20201101192507
+95.65.81.0 2 2 144082 20201101075146
+2001:4ca0:108:42:: 1 1 0 20201101010941
+5.9.17.0 6 6 427233 20201101204410
+2003:a:1028:d000:: 2 73 3540133 20201102193004
+2a01:598:8990:a284:: 0 1 0 
+178.121.236.0 1 1 78652 20201103032337 20201103032337 /
+2a00:20:8016:7dd2:: 1 3 34832 20201102150636
+2a01:598:8988:7db3:: 1 3 34834 20201102171257
+2a02:8070:63c7:5f00:: 1 2 27219 20201102083608
+2003:d7:6f26:c200:: 1 57 206830 20201102141916
+82.113.99.0 15 451 5327823 20201101175611
+92.216.157.0 6 133 1816843 20201102210943
+185.135.83.0 1 1 78652 20201102204112
+18.237.29.0 2 2 156908 20201102084235
+192.126.228.0 1 1 15367 20201102130510
+2003:eb:8f22:ad00:: 0 2 0 
+212.80.219.0 1 1 78652 20201102113851
+217.195.198.0 1 1 66596 20201101081540
+2a01:598:9284:8de0:: 5 130 1815309 20201101192515
+192.254.78.0 1 1 66594 20201101223253
+176.192.182.0 1 1 78652 20201102170623
+94.139.237.0 4 4 288555 20201102174956
+87.149.174.0 1 57 930280 20201102191244
+2a01:598:8890:7657:: 2 8 56230 20201102201218
+2003:ef:7f04:f800:: 0 2 0 
+185.100.86.0 3 3 210099 20201102180712
+211.14.175.0 2 2 133192 20201101043347
+185.51.246.0 2 2 133582 20201103023833 20201103023833 /1-qr-code/
+149.172.43.0 1 19 303055 20201102104519
+2a01:598:b974:e82c:: 1 2 27219 20201102104403
+2001:16b8:2a88:4b00:: 1 45 816424 20201102192556
+198.57.156.0 1 1 66596 20201101054120
+93.195.231.0 1 57 1066058 20201101083944
+54.209.218.0 0 1 7562 
+2001:16b8:207e:8c00:: 0 2 0 
+2a02:b98:4736:1998:: 0 2 7562 
+2a01:598:b900:6bfa:: 2 74 3544428 20201101175723
+2a01:598:898f:8e86:: 7 192 3996946 20201101185942
+198.199.91.0 2 2 156908 20201102075255
+2001:16b8:207e:8c01:: 0 1 0 
+64.94.208.0 2 2 31434 20201101082359
+188.122.82.0 4 4 288156 20201102101516
+2a01:598:8987:3247:: 2 73 3540365 20201102144537
+46.114.6.0 2 74 3544658 20201101204649
+217.171.147.0 4 4 288946 20201102212157
+104.238.59.0 2 2 144082 20201101041234
+2003:c3:1f0e:f188:: 2 5 33646 20201102223150
+41.80.83.0 5 125 1794257 20201102203106
+188.163.109.0 1 1 78454 20201102020617
+2a01:598:90a0:7449:: 1 57 1066222 20201101184956
+196.247.229.0 1 1 16776 20201101082353
+79.195.198.0 4 147 7084652 20201101204002
+178.4.175.0 0 4 13671 
+2604:a880:800:10:: 1 1 66596 20201101051008
+83.135.64.0 0 1 0 
+121.205.220.0 3 3 45867 20201101234041
+2003:c2:472d:f900:: 1 3 34775 20201101115257
+2003:d7:6f20:6b00:: 0 3 0 
+104.244.73.0 2 2 144473 20201102233508
+88.71.119.0 1 1 27214 20201101083032
+82.113.98.0 14 499 7684739 20201101205807
+2a01:598:888b:f14b:: 2 59 1152043 20201101163205
+80.246.31.0 3 3 235362 20201102034416
+92.223.89.0 4 4 288946 20201102195507
+2003:c0:4701:accc:: 1 54 1054273 20201101235711
+173.234.194.0 1 1 16823 20201102230151
+176.99.9.0 1 1 66594 20201101215648
+2a02:8071:91a6:3100:: 0 13 263282 
+46.114.148.0 4 134 3716010 20201101185616
+89.109.35.0 3 3 199788 20201101041641
+37.201.7.0 3 73 1603687 20201102135043
+188.105.52.0 1 57 868989 20201101204714
+5.62.60.0 2 2 144082 20201101095335
+185.104.187.0 7 7 97962 20201102072424
+2a01:598:888d:ab26:: 2 74 3544433 20201101184232
+81.88.49.0 1 1 66594 20201102020944
+185.86.149.0 1 1 78652 20201102115414
+80.138.132.0 3 73 1603419 20201101084337
+46.114.7.0 1 3 22850 20201101181639
+122.152.211.0 2 2 133192 20201101092439
+45.76.2.0 5 5 80955 20201101111216
+84.61.110.0 2 104 1420871 20201101201441
+2a01:598:b90d:f20c:: 8 197 2029579 20201101181609
+193.202.110.0 1 1 66791 20201102111001
+95.73.40.0 1 1 78456 20201101061624
+176.126.165.0 1 1 66594 20201101204654
+107.172.146.0 1 1 15337 20201102225016
+178.159.37.0 1 1 78454 20201101233210
+39.36.2.0 3 68 1585612 20201102202955
+2a00:20:900b:522:: 1 4 89126 20201101190830
+2a01:598:888a:98cf:: 1 55 1062775 20201101150313
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20201101 328 6631 128106107 69
+20201102 1502 17595 237726411 66
+20201103 7 7 490289 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 8
+1h+ 10
+2mn-5mn 4
+5mn-15mn 2
+15mn-30mn 4
+30s-2mn 6
+0s-30s 103
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 101
+/static/main/font/fontawesome-webfont.woff 183 13391990 1 30
+/ 161 5836730 64 25
+/weko/main/dish/ 150 503083 0 0
+/weko/main/dish/add/ 138 408115 0 0
+/favicon.ico/ 129 1225957 1 3
+/static/admin/fonts/Roboto-Regular-webfont.woff 109 7841806 0 0
+/static/admin/fonts/Roboto-Light-webfont.woff 105 7457562 0 0
+/static/admin/fonts/Roboto-Bold-webfont.woff 93 6930266 0 0
+/so-funktioniert-es 69 1059149 2 0
+/static/main/slider/fonts/revicons/revicons.woff 67 487461 2 12
+/weko/main/restaurant/add/ 1 3110 0 0
+/timeout-cafe-mosbach/ 1 19823 0 0
+/alanys-doner/ 16 321956 0 0
+/details/28-black-19 1 15310 0 0
+/details/kiss-on-the-beach 1 15233 0 0
+/weko/auth/user/11/change/ 1 4336 0 0
+/details/doppelapfel-2 2 29652 0 0
+/weko/jsi18n/ 49 156163 0 0
+/1.php/ 1 66791 1 1
+/dashboard/prices 52 417854 2 3
+/weko/main/sub_categories/213/change/ 2 5961 0 0
+/weko/auth/user/ 3 7860 1 0
+/agb 2 33140 0 0
+/remembar-mosbach/ 12 186412 7 5
+/weko/main/image/add/ 1 1132 0 0
+/simple.php5/ 1 66594 1 1
+/purple/ 2 35894 0 0
+/prince-shisha-lounge/ 3 74060 0 0
+/3-zusammenstellen/ 3 45867 1 1
+/ajax-index.php/ 1 66596 1 1
+/1-qr-code/ 7 415528 4 3
+/remembar-buchen/ 24 654637 21 7
+/weko/main/dish/988/change/ 1 3196 0 0
+/details/red-bull-sugarfree 1 15302 0 0
+/weko/main/dish/933/change/ 1 3211 0 0
+/weko/logout/ 1 718 0 0
+/locker-shisha-lounge/ 1 15288 1 1
+/details/vita-malz 1 15091 0 0
+/details/sprite-10 1 15172 0 0
+/impressum/ 1 66594 1 0
+/login 21 37660 1 0
+/weko/main/dish/897/change/ 1 3165 0 0
+/weko/main/dish/935/change/ 1 3215 0 0
+/weko/main/topic/ 7 23877 0 0
+/weko/auth/user/9/change/ 2 8830 0 0
+/details/okolom 1 14828 0 0
+/weko/dynamic/home/ 2 6549 0 0
+/dashboard/feedback 3 7869 0 0
+/weko/main/dish/898/change/ 1 3164 0 0
+/el-cuervo/ 7 107102 5 2
+/impressum 2 33174 0 2
+/habibi-shisha-lounge/ 1 17005 0 0
+/weko/main/sub_categories/232/change/ 1 2940 0 0
+/weko/main/dish/1005/change/ 1 3240 0 0
+/seter.php.suspected/ 1 66594 1 1
+/hookah-shisha-lounge/ 13 302710 4 0
+/wikindex.php/ 1 66596 0 1
+/weko/login/ 61 58254 0 0
+/weko/main/sub_categories/ 51 214362 1 0
+/royal-house-shisha-lounge/ 2 48242 2 1
+/kontakt 50 2522692 2 25
+/weko/main/sub_categories/add/ 29 81164 1 0
+/weko/ 3 5144 1 0
+/weko/main/image/ 21 59189 0 0
+/google-site-verification-content-fpk8ez12pdbewljjo9xhbxlv7lhxa9nplpcode87.php/ 1 66596 1 1
+/pizzaaa/ 1 15291 0 0
+/details/28-black-18 1 15104 0 0
+/weko/main/dish/896/change/ 1 3159 0 0
+/mm.php/ 1 66791 1 0
+/details/moloko-9 1 15423 0 0
+/weko/auth/user/17/change/ 1 4409 0 0
+/diamonds-shisha-lounge-speyer/ 1 17838 0 0
+/weko/main/categories/add/ 12 26490 0 0
+/details/coca-cola-10 2 30306 0 0
+/details/elephant-bay-16 1 15139 0 0
+/timeless-shisha-lounge/ 26 482273 0 0
+/weko/main/topic/add/ 3 6623 0 0
+/unique-shisha-lounge/ 10 247821 0 0
+/baindex.php/ 1 66596 1 0
+/static/main/font/glyphicons-halflings-regular.woff 15 252440 0 0
+/pizza/ 2 33101 1 0
+/details/28-black-20 1 15295 0 0
+/weko/main/restaurant/ 10 52403 0 0
+/glashaus-shisha-lounge/ 14 304113 1 2
+/datenschutz 2 87571 0 0
+/dashboard/shisha 6 19446 0 0
+/wp-m.php/ 4 266380 3 3
+/my-account/ 2 30599 0 2
+/l/ 1 15339 0 0
+/index.php/ 3 97161 1 1
+/weko/auth/user/9/password/ 1 2014 0 0
+/weko/main/categories/ 20 76916 0 0
+/weko/main/sub_categories/231/change/ 1 2938 0 0
+/weko/auth/user/add/ 2 4899 0 0
+/kontakt/ 3 97215 2 2
+/weko/dynamic/home/1/change/ 1 3314 0 0
+/details/cinderella 1 14932 0 0
+/details/strawberry-colada 1 14930 0 0
+/details/coca-cola-12 1 15444 0 0
+/weko/main/dish/934/change/ 1 3212 0 0
+/details/069 1 14837 0 1
+END_SIDER

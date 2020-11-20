@@ -1,0 +1,160 @@
+{% extends "layout/BaseLayout.html" %}
+{% load static %}
+{% block content %}
+<!-- Page Title with Backgraound -->
+<div class="page-title-bg" style="background-image:url("%{ static 'main/images/page-title-bg.jpg' %}")">
+    <div class="page-title-overlay"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="page-title">{{dish.title}}</h1>
+        </div>
+    </div>
+</div>
+<!-- BreadCrumb -->
+<div class="header-breadcrumb ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ol class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li class="active">{{dish.title}}</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Single Blog Post -->
+<div class="blog-single pd-top-80 pd-bottom-80">
+    <div class="container">
+        <div class="row">
+            <!-- Recipe Ingredient -->
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div
+                    class="recipe-single-content post-165 redchili_recipes type-redchili_recipes status-publish has-post-thumbnail hentry tag-chicken tag-spicy">
+                   
+                    <div class="recipe-post-wrapper">
+                        <div class="featured-image-recipe">
+                            {% if dish.image %}
+                            <div class="featured-image-wrap"><img width="1920" height="1280"
+                                    src="{{dish.image.img.url}}"
+                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
+                                    srcset="{{dish.image.url}}"
+                                    sizes="(max-width: 1920px) 100vw, 1920px" />
+                                </div>
+                                {% else %}                        
+                                <div class="featured-image-wrap">
+                                    
+                                    <img width="1920" height="1280"
+                                    src="{% static 'main/images/menulo_bilder250.svg' %}"
+                                    class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt=""
+                                    srcset="{% static 'main/images/menulo_bilder250.svg' %}"
+                                    sizes="(max-width: 1920px) 100vw, 1920px" />
+                                </div>
+                                {% endif %}
+                        </div>
+                        
+                        <div class="recipe-post">
+                            <h1 class="single-recipe-title text-center">{{dish.title}}</h1>
+                            <div class="recipe-content">
+                                <p>{{dish.description|slice:":350"}}</p>
+                            </div>
+                        </div>
+                        <div class="custom_content">
+                            <div class="recipe-post_content">
+                                {% if dish.price %}
+                                <div class="single-recipe-price text-left">
+                                    {{dish.price}} €
+                                 </div>
+                                 {% endif %}
+                                 {% if sizes %}                                
+                                
+                                    <div class="row ">
+                                        <div class="col-lg-4 col-xs-2 "></div>
+                                        <div class="col-lg-4  col-xs-8 single-recipe-price text-left" >
+                                            
+                                            <!-- <div class="col-lg-4 col-sm-4 col-xs-4 text-white">
+                                                {{s.size}} 
+                                            </div>                                       -->
+                                            <table class="table table-borderless table-dark" >
+                                                <thead>
+                                                    
+                                                  <tr>
+                                                    {% for s in sizes %}
+                                                    <th scope="col" style="
+                                                    text-align: center;
+                                                ">{{s.size}}</th>
+                                                    {% endfor %}
+                                                  </tr>
+                                                  
+                                                </thead>
+                                                <tbody>
+                                                    
+                                                  <tr style="
+                                                  border-top: hidden;
+                                              ">
+                                                    {% for s in sizes %}
+                                                    
+                                                    <td scope="row" style="
+                                                    text-align: center;
+                                                "> {{s.price}} €</td>
+                                                    {% endfor %} 
+                                                        
+                                                  </tr>  
+                                                                                          
+                                                </tbody>
+                                              </table>
+                                            
+                                            
+                                            
+                                        </div>
+                                    <div class="col-lg-4 col-sm-4 col-xs-2 "></div>
+                                    </div>
+                                 
+                                 
+                                 {% endif %}
+                                <div class="recipes_info">
+                                    {% if dish.number_AZ %}
+                                        <p>{{dish.number_AZ}}</p>
+                                    {% endif %}
+                                    {% if top == None %}
+                                        <br><br></br></br>
+                                        <div style="font-size: 11px;">
+                                        {% if rest.allergene %}
+                                        <p>Allergene</p>
+                                        <p>{{rest.allergene|safe}}</p>
+                                        {% endif %}
+                                        {% if rest.zusatzstoffe %}
+                                        <p>Zusatzstoffe</p>
+                                        <p>{{rest.zusatzstoffe|safe}}</p>
+                                        {% endif %}
+                                       
+                                        </div>
+                                    {% else %}
+                                        <br><br></br></br>
+                                        <div style="font-size: 11px;">
+                                        {% if rest.shisha_law %}
+                                            <p>Hinweis</p>
+                                            <p>{{rest.shisha_law|safe}}</p>
+                                        {% endif %}
+                                        </div>
+                                    {% endif %}
+                                
+                                </div>
+                            </div>
+                        </div>
+                       
+                        
+                    </div>
+                   
+                </div>
+            </div>
+            <!-- Sidebar -->
+            <!-- Sidebar -->
+           
+        </div>
+    </div>
+</div>
+
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+{% endblock %}

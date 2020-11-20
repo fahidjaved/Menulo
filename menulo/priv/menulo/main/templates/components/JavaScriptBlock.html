@@ -1,0 +1,224 @@
+{% load static %}
+
+
+<!--googleon: all-->
+<link rel='stylesheet' id='cookie-law-info-table-css' href="{% static 'main/cookies/public/css/cookie-law-info-table.css' %}" type='text/css' media='all' />
+<script type='text/javascript' src="{% static 'main/js/jquery.selectbox.min.js' %}"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var yith_wcwl_l10n = {  "redirect_to_cart": "no", "multi_wishlist": "", "hide_add_button": "1", "enable_ajax_loading": "", "remove_from_wishlist_after_add_to_cart": "1", "is_wishlist_responsive": "1", "labels": { "cookie_disabled": "We are sorry, but this feature is available only if cookies on your browser are enabled.", "added_to_cart_message": "<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>" }, "actions": { "add_to_wishlist_action": "add_to_wishlist", "remove_from_wishlist_action": "remove_from_wishlist", "reload_wishlist_and_adding_elem_action": "reload_wishlist_and_adding_elem", "load_mobile_action": "load_mobile", "delete_item_action": "delete_item", "save_title_action": "save_title", "save_privacy_action": "save_privacy", "load_fragments": "load_fragments" } };
+/* ]]> */
+</script>
+<script type='text/javascript' src="{% static 'main/js/jquery.yith-wcwl.js' %}"></script>
+
+<script type='text/javascript' src="{% static 'main/form/includes/js/scripts.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/detectmobilebrowser.js' %}"></script>
+
+
+<script type='text/javascript' src="{% static 'main/js/password-strength-meter.min.js' %}"></script>
+
+<script type='text/javascript' src="{% static 'main/js/bootstrap.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/retina.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/jquery.easing.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/jquery.scrollup.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/jquery-ui.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/bootstrap-select.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/jquery.steps.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/picker.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/legacy.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/picker.date.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/picker.time.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/jquery.magnific-popup.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/owl.carousel.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/jquery.waypoints.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/isotope.pkgd.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/imagesloaded.pkgd.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/jquery.fitvids.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/custom.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/composer.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/imagesloaded.min.js' %}"></script>
+<script type='text/javascript' src="{% static 'main/js/masonry.min.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+<script type='text/javascript'>
+
+$(window).load(function() {
+    setTimeout(function(){
+        $(".load").fadeOut("slow");
+    }, 2000);
+    
+});
+
+
+var active = '';
+				var next = null;
+				$('#carousel-example-generic').on('slide.bs.carousel', function () {
+
+					$('.carousel-indicators li').each(function () {
+						if ($(this).hasClass('active')) {
+							active = $(this).data('slide-to');
+							console.log(active);
+							next = $(this).next('li').data('slide-to');
+						}
+					});
+					$('body').removeClass('slide' + active);
+					if (typeof next === 'undefined') {
+						$('body').addClass('slide1');
+					} else {
+						$('body').addClass('slide' + next);
+					}
+
+				});
+</script>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss = ".tp-caption.a-slide-btn,.a-slide-btn{color:#ffffff;font-size:16px;line-height:16px;font-weight:700;font-style:normal;font-family:Raleway;text-decoration:none;background-color:#e2001a;border-color:#e2001a;border-style:solid;border-width:1px;border-radius:0 0 0 0px;letter-spacing:0.75px}.tp-caption.redchili-slide-title,.redchili-slide-title{color:#ffffff;font-size:60px;line-height:60px;font-weight:900;font-style:normal;font-family:Raleway;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;letter-spacing:0.3px}.tp-caption.rc-slide-caption-2,.rc-slide-caption-2{color:#ffffff;font-size:18px;line-height:18px;font-weight:700;font-style:normal;font-family:Raleway;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px;letter-spacing:0.1px}";
+    if (htmlDiv) {
+        htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+    } else {
+        var htmlDiv = document.createElement("div");
+        htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+        document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+    }
+</script>
+<script type="text/javascript">
+   
+    var setREVStartSize = function () {
+        try {
+            var e = new Object, i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
+            e.c = jQuery('#rev_slider_4_1');
+            e.responsiveLevels = [1240, 1024, 778, 480];
+            e.gridwidth = [1240, 1024, 778, 480];
+            e.gridheight = [868, 768, 560, 720];
+            e.sliderLayout = "fullscreen";
+            e.fullScreenAutoWidth = 'off';
+            e.fullScreenAlignForce = 'off';
+            e.fullScreenOffsetContainer = '';
+            e.fullScreenOffset = '110px';
+            if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) { f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e) }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) { var u = (e.c.width(), jQuery(window).height()); if (void 0 != e.fullScreenOffsetContainer) { var c = e.fullScreenOffsetContainer.split(","); if (c) jQuery.each(c, function (e, i) { u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0)) } f = u } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight); e.c.closest(".rev_slider_wrapper").css({ height: f })
+        } catch (d) { console.log("Failure at Presize of Slider:" + d) }
+    };
+    setREVStartSize();
+    var tpj = jQuery;
+    var revapi4;
+    tpj(document).ready(function () {
+        if (tpj("#rev_slider_4_1").revolution == undefined) {
+            revslider_showDoubleJqueryError("#rev_slider_4_1");
+        } else {
+            revapi4 = tpj("#rev_slider_4_1").show().revolution({
+                sliderType: "standard",
+                jsFileLocation: "{%static 'main/slider/js/' %}",
+                sliderLayout: "fullscreen",
+                dottedOverlay: "twoxtwo",
+                delay: 5000,
+                navigation: {
+                    keyboardNavigation: "off",
+                    keyboard_direction: "horizontal",
+                    mouseScrollNavigation: "off",
+                    mouseScrollReverse: "default",
+                    onHoverStop: "off",
+                    touch: {
+                        touchenabled: "on",
+                        swipe_threshold: 75,
+                        swipe_min_touches: 50,
+                        swipe_direction: "horizontal",
+                        drag_block_vertical: false
+                    }
+                    ,
+                    arrows: {
+                        style: "uranus",
+                        enable: true,
+                        hide_onmobile: true,
+                        hide_under: 600,
+                        hide_onleave: true,
+                        hide_delay: 200,
+                        hide_delay_mobile: 1200,
+                        tmp: '',
+                        left: {
+                            h_align: "left",
+                            v_align: "center",
+                            h_offset: 30,
+                            v_offset: 0
+                        },
+                        right: {
+                            h_align: "right",
+                            v_align: "center",
+                            h_offset: 30,
+                            v_offset: 0
+                        }
+                    }
+                    ,
+                    bullets: {
+                        enable: true,
+                        hide_onmobile: true,
+                        hide_under: 600,
+                        style: "hephaistos",
+                        hide_onleave: false,
+                        direction: "horizontal",
+                        h_align: "center",
+                        v_align: "bottom",
+                        h_offset: 0,
+                        v_offset: 30,
+                        space: 5,
+                        tmp: ''
+                    }
+                },
+                responsiveLevels: [1240, 1024, 778, 480],
+                visibilityLevels: [1240, 1024, 778, 480],
+                gridwidth: [1240, 1024, 778, 480],
+                gridheight: [868, 768, 560, 720],
+                lazyType: "none",
+                parallax: {
+                    type: "mouse",
+                    origo: "slidercenter",
+                    speed: 2000,
+                    levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50, 47, 48, 49, 50, 51, 55],
+                    type: "mouse",
+                },
+                shadow: 0,
+                spinner: "off",
+                stopLoop: "off",
+                stopAfterLoops: -1,
+                stopAtSlide: -1,
+                shuffle: "off",
+                autoHeight: "off",
+                fullScreenAutoWidth: "off",
+                fullScreenAlignForce: "off",
+                fullScreenOffsetContainer: "",
+                fullScreenOffset: "110px",
+                hideThumbsOnMobile: "off",
+                hideSliderAtLimit: 0,
+                hideCaptionAtLimit: 0,
+                hideAllCaptionAtLilmit: 0,
+                debugMode: false,
+                fallbacks: {
+                    simplifyAll: "off",
+                    nextSlideOnWindowFocus: "off",
+                    disableFocusListener: false,
+                }
+            });
+            jQuery('body').on('click', 'a.tp-caption', function () {
+                var $this = jQuery(this),
+                    href = $this.attr('href');
+                if (!href || href.charAt(0) !== '#') return;
+                var el = jQuery(href);
+                if (!el.length) el = jQuery('a[name=' + href.substring(1, href.length) + ']');
+                if (!el.length) return;
+                jQuery('html, body').animate({ scrollTop: el.offset().top }, 1000);
+                return false;
+            });
+        }
+    });	/*ready*/
+</script>
+<script>
+    var htmlDivCss = unescape("%23rev_slider_4_1%20.uranus.tparrows%20%7B%0A%20%20width%3A50px%3B%0A%20%20height%3A50px%3B%0A%20%20background%3Argba%28255%2C255%2C255%2C0%29%3B%0A%20%7D%0A%20%23rev_slider_4_1%20.uranus.tparrows%3Abefore%20%7B%0A%20width%3A50px%3B%0A%20height%3A50px%3B%0A%20line-height%3A50px%3B%0A%20font-size%3A40px%3B%0A%20transition%3Aall%200.3s%3B%0A-webkit-transition%3Aall%200.3s%3B%0A%20%7D%0A%20%0A%20%20%23rev_slider_4_1%20.uranus.tparrows%3Ahover%3Abefore%20%7B%0A%20%20%20%20opacity%3A0.75%3B%0A%20%20%7D%0A.hephaistos%20.tp-bullet%20%7B%0A%09width%3A12px%3B%0A%09height%3A12px%3B%0A%09position%3Aabsolute%3B%0A%09background%3Argba%28153%2C%20153%2C%20153%2C%201%29%3B%0A%09border%3A3px%20solid%20rgba%28255%2C255%2C255%2C0.9%29%3B%0A%09border-radius%3A50%25%3B%0A%09cursor%3A%20pointer%3B%0A%09box-sizing%3Acontent-box%3B%0A%20%20%20%20box-shadow%3A%200px%200px%202px%201px%20rgba%28130%2C130%2C130%2C%200.3%29%3B%0A%7D%0A.hephaistos%20.tp-bullet%3Ahover%2C%0A.hephaistos%20.tp-bullet.selected%20%7B%0A%09background%3Argba%28255%2C%20255%2C%20255%2C%201%29%3B%0A%20%20%20%20border-color%3Argba%280%2C%200%2C%200%2C%201%29%3B%0A%7D%0A");
+    var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+    if (htmlDiv) {
+        htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+    }
+    else {
+        var htmlDiv = document.createElement('div');
+        htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+        document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+    }
+</script>

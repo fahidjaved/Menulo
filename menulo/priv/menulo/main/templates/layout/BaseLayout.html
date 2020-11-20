@@ -1,0 +1,37 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Menulo"/>
+    <meta name="description" content="Menulo"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>Menulo</title>
+    {% include "components/StylesBlock.html" %}
+    {% block extrastyle %}
+    
+    {% endblock extrastyle %}
+    
+    
+</head>
+<body >
+
+
+{% include "components/Header.html" %}
+
+{% block content %}
+{% endblock content %}
+
+{% include "components/Footer.html" %}
+
+{% include "components/JavaScriptBlock.html" %}
+{% block javascriptblock %}	
+
+{% endblock javascriptblock %}
+
+    
+
+</body>
+</html>

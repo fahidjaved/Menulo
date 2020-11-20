@@ -1,0 +1,35 @@
+{% extends "layout/LoginLayout.html" %}
+{% load static %}
+{% block content %}
+	
+		<script type="text/javascript">
+			document.body.className = document.body.className.replace('no-js','js');
+		</script>
+			<div id="login">
+				<h1><a href="/"></a></h1>
+			<form name="loginform"   method="post">
+				{% csrf_token %}
+				<p>
+					<label for="user_login">Benutzername oder E-Mail-Adresse</label>
+					<input type="text" name="user_login" id="user_login" class="input" value="" size="20" autocapitalize="off" />
+				</p>
+				<div class="user-pass-wrap">
+					<label for="user_pass">Passwort</label>
+					<div class="wp-pwd">
+						<input type="password" name="user_pass" id="user_pass" class="input password-input" value="" size="20" />
+						
+					</div>
+				</div>
+							
+					<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Anmelden" />
+										
+										<input type="hidden" name="testcookie" value="1" />
+				</p>
+			</form>
+						
+						
+					<p id="backtoblog">
+			&larr; Zurück zu menulo		</a></p>
+				</div>
+				
+	{% endblock %}

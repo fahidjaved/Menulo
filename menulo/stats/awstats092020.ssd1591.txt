@@ -1,0 +1,724 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202009 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/liveconfig/awstats.ssd1591.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2001                
+POS_TIME 2675                
+POS_VISITOR 20323               
+POS_DAY 21681               
+POS_DOMAIN 3536                
+POS_LOGIN 3771                
+POS_ROBOT 3926                
+POS_WORMS 4058                
+POS_EMAILSENDER 4189                
+POS_EMAILRECEIVER 4332                
+POS_SESSION 22083               
+POS_SIDER 22293               
+POS_FILETYPES 4467                
+POS_DOWNLOADS 4730                
+POS_OS 4778                
+POS_BROWSER 4952                
+POS_SCREENSIZE 5508                
+POS_UNKNOWNREFERER 5582                
+POS_UNKNOWNREFERERBROWSER 5848                
+POS_ORIGIN 6006                
+POS_SEREFERRALS 6148                
+POS_PAGEREFS 6311                
+POS_SEARCHWORDS 17313               
+POS_KEYWORDS 17465               
+POS_MISC 2337                
+POS_ERRORS 17524               
+POS_CLUSTER 3627                
+POS_SIDER_404 17687               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201001094402 1 0 10914891269646
+FirstTime 20200914083145
+LastTime 20200930223521
+LastUpdate 20201002033533 1 0 0 0 0
+TotalVisits 118                 
+TotalUnique 30                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 30                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 250 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 2 68 1661524 0 1 1902
+2 0 0 0 0 0 0
+3 7 213 4411025 0 1 1924
+4 0 0 0 0 0 0
+5 73 1180 7658564 10 12 11088
+6 15 340 4579616 3 7 16961
+7 128 1803 22901341 21 40 67403
+8 423 4169 39750464 31 64 112158
+9 467 4835 48845735 37 117 995309
+10 378 4110 38192697 48 83 2618380
+11 229 4139 41963080 31 93 797630
+12 127 2152 19880784 30 47 918488
+13 450 3921 54710480 66 127 1680642
+14 223 1535 33358655 46 67 2264284
+15 150 1327 15865467 39 60 1328621
+16 123 1456 16348465 22 41 1387145
+17 157 1998 29227609 21 114 513791
+18 194 2537 33217470 18 63 161830
+19 645 8240 50158143 151 381 1025497
+20 557 6663 53418692 82 181 537028
+21 650 5852 39879144 114 172 5416587
+22 593 5595 43870656 81 112 2997078
+23 38 718 2632904 4 13 88217
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 5629 62851 602532515
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+js 34121 132370455 0 0
+ttf 4 382976 0 0
+png 3155 10007074 0 0
+Unknown 827 12476294 0 0
+jpg 2345 161822309 0 0
+css 15646 74270358 0 0
+html 2045 7302148 0 0
+svg 1955 722540 0 0
+woff 2753 203178361 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+win10 42661 4334
+linux 27 5
+win7 109 30
+ios_iphone 210 7
+Unknown 19 19
+linuxandroid 19755 1231
+ios_ipad 70 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 22
+firefox80.0 7871 761
+safari11.0 70 3
+chrome80.0.3987.149 153 5
+chrome85.0.4183.121 9300 879
+firefox81.0 7511 748
+chrome40.0.2214.85 5 5
+Unknown 11 11
+chrome85.0.4183.102 20866 2053
+netscape5.0 27 14
+chrome81.0.4044.138 1357 133
+chrome80.0.3987.99 74 3
+chrome83.0.4103.106 61 2
+chrome84.0.4147.135 86 8
+chrome67.0.3396.87 73 3
+mozilla 8 8
+safari10.0 73 2
+chrome51.0.2704.103 9 9
+chrome85.0.4183.127 120 5
+safari13.0.3 137 5
+chrome85.0.4183.101 703 23
+chrome83.0.4103.116 68 2
+chrome79.0.3945.136 14268 947
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+WhatsApp/2.20.195.15_A 20200927202142
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20200914083147
+WhatsApp/2.20.198.15_A 20200921202655
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WhatsApp/2.20.198.15_A 20200921202655
+WhatsApp/2.20.195.15_A 20200927202142
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 777 1018
+From1 0 0
+From2 4 4
+From3 4848 61829
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 180
+https://django07.as-apphost.de/static/admin/css/fonts.css 1930 1930
+https://django07.as-apphost.de/static/main/css/font-awesome.min.css 425 425
+https://django07.as-apphost.de/static/main/css/bootstrap.css 257 257
+https://django07.as-apphost.de/admin/main/dish/add/ 200 1153
+https://django07.as-apphost.de/admin/main/dish/ 192 1884
+https://django07.as-apphost.de/admin/main/restaurant/ 158 2194
+https://django07.as-apphost.de/static/main/slider/css/settings.css 137 279
+https://django07.as-apphost.de/admin/main/sub_categories/add/ 106 752
+https://django07.as-apphost.de/admin/ 97 422
+https://django07.as-apphost.de/restaurant/timeout-cafe 90 5439
+https://django07.as-apphost.de/recipies/pepsi 13 1915
+https://django07.as-apphost.de/admin/main/dish/54/change/ 1 1
+https://django07.as-apphost.de/recipies/pepsi/2 1 60
+https://django07.as-apphost.de/admin/main/sub_categories/41/change/ 1 9
+https://django07.as-apphost.de/admin/main/dish/85/change/ 2 2
+https://django07.as-apphost.de/static/admin/css/widgets.css 0 123
+https://django07.as-apphost.de/details/timeout-deluxe 1 382
+https://django07.as-apphost.de/admin/main/dish/75/change/ 0 17
+https://django07.as-apphost.de/admin/auth/user/3/change/ 10 17
+https://django07.as-apphost.de/admin/main/size/add/ 54 338
+https://django07.as-apphost.de/admin/main/dish/53/change/ 1 10
+https://django07.as-apphost.de/admin/main/price/add/ 52 301
+https://django07.as-apphost.de/admin/main/sub_categories/51/change/ 3 27
+https://django07.as-apphost.de/admin/main/sub_categories/ 69 940
+https://django07.as-apphost.de/static/admin/css/base.css 0 1394
+https://django07.as-apphost.de/impressum 1 115
+https://django07.as-apphost.de/remembar-mosbach 0 209
+https://django07.as-apphost.de/admin/main/restaurant/6/change/ 6 89
+https://django07.as-apphost.de/details/gekochtes-ei 1 232
+https://django07.as-apphost.de/admin/auth/user/add/ 4 52
+https://django07.as-apphost.de/details/hongos-de-aioli-3 0 54
+https://django07.as-apphost.de/shisha 1 115
+https://django07.as-apphost.de/recipies/hongos-de-aioli-2 0 112
+https://django07.as-apphost.de/admin/main/dish/20/change/ 5 50
+https://django07.as-apphost.de/admin/main/size/5/change/ 3 19
+https://django07.as-apphost.de/admin/main/topic/19/change/ 2 18
+https://django07.as-apphost.de/admin/main/dish/45/change/ 2 10
+https://django07.as-apphost.de/admin/main/topic/18/change/ 2 18
+https://django07.as-apphost.de/details/kumru 1 170
+https://django07.as-apphost.de/admin/main/sub_categories/28/change/ 1 1
+https://django07.as-apphost.de/details/pink-grapefruit 0 55
+https://django07.as-apphost.de/admin/main/topic/add/ 47 408
+https://django07.as-apphost.de/admin/main/dish/86/change/ 4 4
+https://django07.as-apphost.de/adminmain/restaurant/ 4 115
+https://django07.as-apphost.de/agb 1 56
+https://django07.as-apphost.de/admin 6 1065
+https://django07.as-apphost.de/admin/main/dish/61/change/ 1 1
+https://django07.as-apphost.de 35 9449
+https://django07.as-apphost.de/admin/main/topic/17/change/ 2 18
+https://django07.as-apphost.de/admin/main/restaurant/7/change/ 2 52
+https://django07.as-apphost.de/admin/main/topic/ 50 653
+https://django07.as-apphost.de/dashboard/shisha 28 72
+https://django07.as-apphost.de/datenschutz 2 170
+https://django07.as-apphost.de/restaurant/doner 0 236
+https://django07.as-apphost.de/unique 0 58
+https://django07.as-apphost.de/admin/main/dish/32/change/ 1 18
+https://django07.as-apphost.de/admin/main/categories/26/change/ 7 39
+https://django07.as-apphost.de/admin/main/topic/20/change/ 2 18
+https://django07.as-apphost.de/admin/main/size/6/change/ 5 21
+https://django07.as-apphost.de/admin/main/restaurant/3/change/ 15 282
+https://django07.as-apphost.de/adminlogin/ 2 17
+https://django07.as-apphost.de/admin/main/dish/59/change/ 3 5
+https://django07.as-apphost.de/remembar-buchen 0 54
+https://django07.as-apphost.de/adminmain/restaurant/add/ 1 18
+https://django07.as-apphost.de/details/apfel 4 934
+https://django07.as-apphost.de/recipies/pepsi/1 2 235
+https://django07.as-apphost.de/admin/main/sub_categories/44/change/ 1 11
+https://django07.as-apphost.de/admin/main/dish/52/change/ 5 58
+https://django07.as-apphost.de/unique-shisha-lounge 3 1576
+https://django07.as-apphost.de/admin/main/dish/64/change/ 1 1
+https://django07.as-apphost.de/admin/auth/user/2/password/ 6 31
+https://django07.as-apphost.de/admin/main/dish/82/change/ 3 12
+https://django07.as-apphost.de/admin/main/dish/62/change/ 1 1
+https://django07.as-apphost.de/admin/main/price/4/change/ 2 10
+https://django07.as-apphost.de/admin/main/dish/19/change/ 1 1
+https://django07.as-apphost.de/admin/main/dish/63/change/ 2 2
+https://django07.as-apphost.de/details/speise-kostenloses-getrank 1 60
+https://django07.as-apphost.de/admin/auth/user/4/change/ 1 5
+https://django07.as-apphost.de/pizza 0 162
+https://django07.as-apphost.de/admin/auth/group/add/ 1 18
+https://django07.as-apphost.de/purple 2 395
+https://django07.as-apphost.de/admin/auth/user/1/change/ 11 99
+https://django07.as-apphost.de/static/main/css/simple-line-icons.css 2 2
+https://django07.as-apphost.de/restaurant/purple 69 4272
+https://django07.as-apphost.de/details/pepsi 6 604
+https://django07.as-apphost.de/details/wasser 1 119
+https://django07.as-apphost.de/admin/main/price/ 48 474
+https://django07.as-apphost.de/restaurant/pizza 0 1125
+https://django07.as-apphost.de/so-funktioniert-es 7 1130
+https://django07.as-apphost.de/admin/main/dish/42/change/ 2 5
+https://django07.as-apphost.de/details/homemade-ice-tea 0 36
+https://django07.as-apphost.de/admin/auth/user/2/change/ 16 293
+https://django07.as-apphost.de/login 21 89
+https://django07.as-apphost.de/qr_code 0 108
+https://django07.as-apphost.de/admin/main/size/ 55 729
+https://django07.as-apphost.de/kontakt 3 602
+https://django07.as-apphost.de/admin/main/dish/25/change/ 1 10
+https://django07.as-apphost.de/admin/main/restaurant/add/ 20 454
+https://django07.as-apphost.de/admin/main/sub_categories/35/change/ 1 11
+https://django07.as-apphost.de/admin/main/sub_categories/52/change/ 3 27
+https://django07.as-apphost.de/admin/logout/ 8 31
+https://django07.as-apphost.de/admin/main/dish/47/change/ 2 10
+https://django07.as-apphost.de/recipies/hongos-de-aioli-3 0 58
+https://django07.as-apphost.de/restaurant/login 0 70
+https://django07.as-apphost.de/admin/main/price/5/change/ 1 20
+https://django07.as-apphost.de/details/hongos-de-aioli-2 0 108
+https://django07.as-apphost.de/admin/main/dish/66/change/ 8 10
+https://django07.as-apphost.de/details/orange 3 470
+https://django07.as-apphost.de/recipies/avocado-de-verdura 2 119
+https://django07.as-apphost.de/admin/main/restaurant/8/change/ 10 167
+https://django07.as-apphost.de/details/waffelsticks 1 60
+https://django07.as-apphost.de/admin/auth/user/3/password/ 2 2
+https://django07.as-apphost.de/admin/main/categories/25/change/ 6 40
+https://django07.as-apphost.de/timeout-cafe-mosbach 16 2160
+https://django07.as-apphost.de/admin/main/dish/72/change/ 4 21
+https://django07.as-apphost.de/details/avocado-de-verdura-2 0 55
+https://django07.as-apphost.de/admin/main/sub_categories/25/change/ 1 11
+https://django07.as-apphost.de/restaurant/timeout-cafe-mosbach 9 653
+https://django07.as-apphost.de/recipies/hongos-de-aioli 0 3
+https://django07.as-apphost.de/details/aqua-mentha 1 118
+https://django07.as-apphost.de/admin/main/topic/14/change/ 1 9
+https://django07.as-apphost.de/admin/main/restaurant/1/change/ 6 785
+https://django07.as-apphost.de/admin/main/price/6/change/ 1 9
+https://django07.as-apphost.de/admin/main/dish/27/change/ 0 55
+https://django07.as-apphost.de/admin/main/size/4/change/ 4 20
+https://django07.as-apphost.de/admin/login/ 82 365
+https://django07.as-apphost.de/details/waffel 0 192
+https://django07.as-apphost.de/details/mezzo-mix-2 0 30
+https://django07.as-apphost.de/dashboard/prices 37 196
+https://django07.as-apphost.de/admin/main/dish/22/change/ 4 32
+https://django07.as-apphost.de/admin/main/dish/84/change/ 1 1
+https://django07.as-apphost.de/recipies/aceitunas-con-queso 1 59
+https://django07.as-apphost.de/admin/main/topic/15/change/ 1 9
+https://django07.as-apphost.de/details/avocado-de-verdura 3 278
+https://django07.as-apphost.de/admin/main/categories/12/change/ 0 15
+https://django07.as-apphost.de/admin/main/dish/65/change/ 3 3
+https://django07.as-apphost.de/admin/main/ 6 18
+https://django07.as-apphost.de/details/pancakes 2 193
+https://django07.as-apphost.de/remembar-book 0 290
+https://django07.as-apphost.de/details/test 0 162
+https://django07.as-apphost.de/admin/main/topic/13/change/ 1 9
+https://django07.as-apphost.de/details/porridge 7 974
+https://django07.as-apphost.de/admin/auth/group/ 1 15
+https://django07.as-apphost.de/admin/main/dish/23/change/ 0 9
+https://django07.as-apphost.de/admin/main/dish/83/change/ 1 1
+https://django07.as-apphost.de/admin/main/size/3/change/ 0 15
+https://django07.as-apphost.de/admin/main/dish/29/change/ 0 15
+https://django07.as-apphost.de/static/admin/css/forms.css 0 352
+https://django07.as-apphost.de/admin/main/dish/21/change/ 2 20
+https://django07.as-apphost.de/admin/main/categories/ 72 974
+https://django07.as-apphost.de/details/coca-cola-light 0 67
+https://django07.as-apphost.de/details/timeout-basic 1 357
+https://django07.as-apphost.de/admin/main/dish/33/change/ 2 19
+https://django07.as-apphost.de/admin/main/restaurant/5/change/ 30 213
+https://django07.as-apphost.de/details/ruhrei-2x-mit-simit 1 60
+https://django07.as-apphost.de/details/hongos-de-aioli 1 265
+https://django07.as-apphost.de/admin/main/sub_categories/29/change/ 1 1
+https://django07.as-apphost.de/details/menemen 0 55
+https://django07.as-apphost.de/recipies/avocado-de-verdura-2 0 110
+https://django07.as-apphost.de/restaurant/shisha 0 120
+https://django07.as-apphost.de/details/kirsche 0 87
+https://django07.as-apphost.de/admin/main/dish/17/change/ 1 1
+https://django07.as-apphost.de/admin/main/sub_categories/23/change/ 4 37
+https://django07.as-apphost.de/details/coca-cola 3 793
+https://django07.as-apphost.de/recipies/pepsi/3 3 239
+https://django07.as-apphost.de/details/traube-m 0 54
+https://django07.as-apphost.de/details/apfel-2 6 650
+https://django07.as-apphost.de/details/ladys-breakfast 0 35
+https://django07.as-apphost.de/admin/auth/user/1/password/ 1 2
+https://django07.as-apphost.de/details/french-toast 2 120
+https://django07.as-apphost.de/admin/main/categories/add/ 69 530
+https://django07.as-apphost.de/admin/main/dish/36/change/ 1 11
+https://django07.as-apphost.de/admin/main/review/ 6 30
+https://django07.as-apphost.de/details/coca-cola-2 0 42
+https://django07.as-apphost.de/admin/main/topic/16/change/ 4 28
+https://django07.as-apphost.de/recipies/turkey-pineapple-packet-on-the-spicy-grill 1 59
+https://django07.as-apphost.de/admin/auth/user/ 39 357
+https://django07.as-apphost.de/admin/main/size/7/change/ 3 19
+https://django07.as-apphost.de/admin/main/categories/24/change/ 4 31
+https://django07.as-apphost.de/admin/main/dish/18/change/ 6 26
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+500 98 18495505
+302 548 0
+404 699 1494675
+403 19 116522
+301 42 3385
+400 2 452
+416 13 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 37
+/static/wp-content/uploads/2016/11/home_step4_iphonex_1_menulo_aiveo.jpg 12 https://django07.as-apphost.de/so-funktioniert-es
+/restaurant/timeout-cafe-mosbach 12 -
+/restaurant/purple 3 -
+/recipies/pepsi 2 -
+/static/wp-content/uploads/2018/02/menulo_logo.svg 12 https://django07.as-apphost.de/kontakt
+/static/wp-content/uploads/2017/06/home_step1_iphonex_1_menulo_aiveo.jpg 14 https://django07.as-apphost.de/so-funktioniert-es
+/doner 2 -
+/recipies/avocado-de-verdura 1 https://django07.as-apphost.de/restaurant/purple
+/static/wp-content/uploads/2018/07/home_slide2_iphonex_1_menulo_aiveo.jpg 12 https://django07.as-apphost.de/so-funktioniert-es
+/recipies/pepsi/static/wp-content/themes/menulo/images/page-title-bg.jpg 6 https://django07.as-apphost.de/recipies/pepsi/3
+/static/wp-content/plugins/redchili-addons/images/support.png 12 https://django07.as-apphost.de/so-funktioniert-es
+/recipies/porridge 3 https://django07.as-apphost.de/timeout-cafe-mosbach
+/adminlogin/ 1 https://django07.as-apphost.de/adminlogin/
+/static/main/js/bootstrap-select.js.map 106 -
+/static/wp-content/themes/menulo/images/page-title-bg.jpg 80 https://django07.as-apphost.de/
+/restaurant/shisha 2 https://django07.as-apphost.de/dashboard/shisha
+/static/main/images/menulo_logo_header_white@2x.png 175 -
+/restaurant/static/wp-content/themes/menulo/images/page-title-bg.jpg 68 https://django07.as-apphost.de/restaurant/purple
+/restaurant/pizza 4 -
+/static/main/images/support@2x.png 61 https://django07.as-apphost.de/
+//restaurent/pizza 1 -
+/static/wp-content/plugins/redchili-addons/images/support@2x.png 14 https://django07.as-apphost.de/so-funktioniert-es
+/wp-content/themes/menulo/images/page-title-bg.jpg 8 https://django07.as-apphost.de/kontakt
+/admin.com 1 -
+/admin/main/restaurant/ 1 -
+/recipies/static/wp-content/themes/menulo/images/page-title-bg.jpg 17 https://django07.as-apphost.de/recipies/aceitunas-con-queso
+/static/wp-content/uploads/2016/11/home_step3_iphonex_1_menulo_aiveo.jpg 12 https://django07.as-apphost.de/so-funktioniert-es
+/admi/ 1 -
+/admim/ 1 -
+/details/static/wp-content/themes/menulo/images/page-title-bg.jpg 46 https://django07.as-apphost.de/details/ruhrei-2x-mit-simit
+/restaurent/doner 1 -
+/retaurant/pizza 1 -
+/wp-login.php 1 -
+/robots.txt 3 -
+/restautant/pizza 1 -
+//restaurent/doner 1 -
+/restaurant/timeout-cafe 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 30
+88.69.18.0 2257 27216 221231099 20200930223521
+111.119.187.0 1517 17190 199347598 20200929193805
+182.181.50.0 1346 11371 109532024 20200922150807
+182.181.47.0 189 2711 24835706 20200928081736
+39.52.144.0 134 1249 15959268 20200930193621
+2a00:20:8025:2a30:: 42 839 3925834 20200924131543
+182.181.40.0 36 461 8331060 20200920104648
+2a00:20:9027:8d2a:: 22 489 1692417 20200920195403
+2a00:20:8025:a602:: 17 420 7330385 20200920170158
+82.113.98.0 11 259 828583 20200926162221
+2600:3000:1511:200:: 2 2 214 20200914083147
+138.246.253.0 2 2 0 20200926115307
+2600:1f14:804:fd01:: 1 1 107 20200914083147
+37.111.135.0 4 133 2163374 20200921031100
+52.114.6.0 6 11 112243 20200927104633
+198.70.68.0 3 9 181788 20200920221331
+150.129.7.0 2 68 1661524 20200924013638
+52.114.75.0 4 8 89420 20200929184652
+59.103.108.0 8 164 1414203 20200930084006
+52.114.14.0 3 6 66517 20200926180551
+2001:4ca0:108:42:: 3 3 0 20200927234631
+37.201.24.0 7 80 1824862 20200924094821
+2600:1f14:804:fd02:: 1 1 107 20200914083147
+2a05:d014:3ad:701:: 1 1 107 20200914083145
+2a00:20:8019:f7f0:: 2 75 136162 20200926155203
+2600:1f16:269:da01:: 2 2 214 20200914083147
+52.114.77.0 1 2 24288 20200924083047
+96.23.20.0 3 9 181780 20200922074717
+178.251.141.0 2 68 1661524 20200924064113
+2a05:d014:3ad:700:: 1 1 107 20200914083147
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20200914 8 8 856 6
+20200920 1703 16976 173906696 18
+20200921 527 8251 66340150 14
+20200922 531 4884 55315626 11
+20200923 620 7647 57697355 10
+20200924 889 10637 109861932 15
+20200925 249 2456 22983488 6
+20200926 102 1494 11338561 9
+20200927 545 6281 43527651 10
+20200928 10 235 1560897 3
+20200929 39 569 11273843 6
+20200930 406 3413 48725460 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 7
+5mn-15mn 12
+30s-2mn 17
+30mn-1h 13
+0s-30s 41
+1h+ 22
+2mn-5mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 189
+/static/admin/fonts/Roboto-Regular-webfont.woff 661 56457484 0 3
+/static/admin/fonts/Roboto-Light-webfont.woff 659 56116956 0 2
+/static/admin/fonts/Roboto-Bold-webfont.woff 614 52677319 0 5
+/static/main/font/fontawesome-webfont.woff 423 32302857 0 40
+/static/main/font/glyphicons-halflings-regular.woff 257 4580960 1 1
+/admin/main/dish/ 230 656970 2 0
+/ 176 2974431 39 9
+/admin/main/restaurant/ 175 500212 2 1
+/admin/main/sub_categories/ 143 343179 0 1
+/static/main/slider/fonts/revicons/revicons.woff 139 1042785 1 7
+/restaurant/timeout-cafe-mosbach 15 303012 2 1
+/admin/main/dish/53/change/ 2 4448 0 0
+/details/pink-grapefruit 1 16108 0 0
+/admin/auth/user/2/change/ 16 58525 0 0
+/details/kumru 5 79530 0 0
+/admin/main/topic/18/change/ 2 4012 0 0
+/static/main/font/fontawesome-webfont.ttf 2 331096 0 0
+/details/gekochtes-ei 5 78676 0 0
+/admin/main/restaurant/6/change/ 8 23198 0 0
+/details/coca-cola-light 2 31872 0 0
+/admin/main/categories/25/change/ 4 7969 0 0
+/dashboard/shisha 29 71198 0 0
+/details/french-toast 4 63142 0 0
+/admin/main/dish/19/change/ 1 2501 0 0
+/admin/jsi18n/ 80 254960 0 2
+/admin/main/sub_categories/44/change/ 1 2001 0 0
+/unique 2 31773 0 0
+/details/mezzo-mix-2 1 15656 0 0
+/restaurant/doner 5 79171 1 0
+/details/speise-kostenloses-getrank 2 31552 0 0
+/admin/main/restaurant/8/change/ 15 43190 1 0
+/admin/main/dish/82/change/ 2 4447 0 0
+/admin/main/dish/add/ 123 273393 0 1
+/admin/main/restaurant/3/change/ 17 48443 0 0
+/details/porridge 28 442755 1 0
+/admin/login/ 74 66293 9 2
+/remembar-mosbach 5 80122 0 0
+/details/hongos-de-aioli-3 1 15670 0 0
+/admin/main/size/7/change/ 2 3998 0 0
+/admin 27 312099 2 0
+/admin/main/topic/14/change/ 1 2008 0 0
+/agb 1 17071 0 0
+/details/coca-cola 17 272444 2 1
+/admin/main/price/add/ 26 49445 0 0
+/dashboard/prices 55 163022 1 6
+/t 1 15890 0 0
+/adminmain/restaurant/add/ 1 2348 0 0
+/details/traube-m 1 15602 0 1
+/timeout-cafe-mosbach 51 1045326 13 6
+/admin/main/categories/24/change/ 3 5977 0 0
+/admin/main/categories/26/change/ 4 7972 0 0
+/details/waffelsticks 2 31562 0 0
+/recipies/pepsi/2 2 31239 0 0
+/.well-known/acme-challenge/vZ0A14fV_YtkY8rxoOQ0I_GHK8g7f4tSiO2JcYTvSmc 4 428 4 2
+/unique-shisha-lounge 39 672417 2 2
+/details/pepsi 16 253440 0 0
+/recipies/pepsi 46 724462 0 0
+/admin/auth/user/1/change/ 9 33058 0 0
+/admin/main/restaurant/7/change/ 4 11698 0 0
+/admin/auth/user/1/password/ 1 1751 0 0
+/admin/main/sub_categories/41/change/ 1 2004 0 0
+/admin/main/topic/16/change/ 3 6015 0 0
+/admin/main/dish/65/change/ 2 4453 0 0
+/admin/auth/user/add/ 4 8679 0 0
+/recipies/pepsi/3 7 109255 0 0
+/admin/main/price/ 51 118447 0 0
+/details/apfel 23 359563 0 0
+/admin/main/sub_categories/51/change/ 3 5994 0 0
+/admin/main/dish/47/change/ 1 2225 0 0
+/details/avocado-de-verdura 9 141514 0 0
+/admin/main/size/6/change/ 2 3997 0 0
+/details/hongos-de-aioli 6 94146 0 1
+/restaurant/login 3 47503 0 0
+/admin/main/dish/66/change/ 4 8921 0 0
+/admin/main/sub_categories/29/change/ 1 1996 0 0
+/restaurant/pizza 21 345277 1 1
+/admin/main/topic/15/change/ 1 2007 0 0
+/details/homemade-ice-tea 1 15773 0 0
+/admin/auth/user/ 36 88530 0 3
+/details/timeout-deluxe 11 176819 0 0
+/admin/main/dish/20/change/ 5 11956 0 0
+/recipies/hongos-de-aioli 1 15633 0 0
+/details/waffel 5 79636 0 0
+/admin/main/dish/18/change/ 5 11894 0 0
+/details/orange 12 191287 0 0
+/restaurant/timeout-cafe 119 2219871 9 4
+/recipies/hongos-de-aioli-2 2 31366 0 1
+/recipies/avocado-de-verdura-2 2 31400 0 0
+/details/hongos-de-aioli-2 2 31361 0 0
+/details/test 3 47172 0 0
+/details/ladys-breakfast 1 15801 0 0
+/admin/main/dish/59/change/ 2 4653 0 0
+/qr_code 2 32535 0 0
+/impressum 3 51300 0 0
+/admin/auth/user/4/change/ 1 3728 0 0
+/admin/main/restaurant/1/change/ 48 116293 0 0
+/admin/main/topic/17/change/ 2 4014 0 0
+/admin/main/dish/17/change/ 1 2393 0 0
+/admin/main/sub_categories/28/change/ 2 4002 0 0
+/recipies/aceitunas-con-queso 2 31389 0 0
+/admin/main/dish/25/change/ 1 2313 0 0
+/ad 1 15910 0 0
+/remembar-buchen 1 15934 0 1
+/admin/main/sub_categories/52/change/ 3 6017 0 0
+/admin/main/dish/62/change/ 1 2230 0 0
+/remembar-book 5 79434 0 0
+/details/wasser 3 47304 0 0
+/pizza 3 48959 0 0
+/shisha 3 48619 0 0
+/admin/main/categories/ 113 248094 0 0
+/recipies/pepsi/1 6 93664 0 1
+/admin/main/dish/64/change/ 1 2232 0 0
+/admin/main/size/3/change/ 1 1984 0 0
+/so-funktioniert-es 21 337971 1 2
+/details/menemen 1 15826 0 0
+/admin/main/sub_categories/25/change/ 1 2001 0 0
+/admin/main/dish/84/change/ 1 2227 0 0
+/adminmain/restaurant/ 7 15833 0 0
+/admin/main/categories/12/change/ 1 1992 0 0
+/details/aqua-mentha 3 46833 0 0
+/admin/main/dish/33/change/ 2 4730 0 0
+/purple 8 153480 1 0
+/admin/auth/group/add/ 1 2516 0 0
+/details/kirsche 2 32030 0 0
+/admin/auth/user/3/change/ 8 29154 0 0
+/static/main/font/simple-line-icons.ttf 2 51880 0 0
+/restaurant/purple 79 1488338 11 1
+/admin/main/dish/61/change/ 1 2224 0 0
+/admin/main/topic/add/ 35 68273 0 0
+/admin/main/size/4/change/ 2 3985 0 0
+/admin/main/size/ 83 176490 0 0
+/admin/main/dish/36/change/ 1 2250 0 0
+/admin/main/dish/42/change/ 2 4607 0 0
+/admin/main/size/5/change/ 2 3999 0 0
+/admin/main/dish/52/change/ 6 13856 0 0
+/admin/main/sub_categories/23/change/ 3 6053 0 0
+/admin/main/dish/27/change/ 3 7310 0 0
+/admin/main/ 2 2219 0 0
+/adminjsi18n/ 3 9561 0 0
+/admin/main/size/add/ 32 60880 0 0
+/admin/auth/user/3/password/ 2 3504 0 0
+/admin/main/sub_categories/add/ 70 137342 0 0
+/admin/main/dish/45/change/ 1 2238 0 0
+/adm 1 15886 0 0
+/admin/main/price/5/change/ 2 3976 0 0
+/admin/main/dish/86/change/ 1 2218 0 0
+/admin/logout/ 13 8190 0 1
+/adminlogin/ 3 2617 0 0
+/admin/main/topic/ 82 175565 0 0
+/admin/main/dish/29/change/ 1 2243 0 0
+/admin/main/price/4/change/ 1 1992 0 0
+/admin/main/restaurant/5/change/ 28 83803 0 0
+/admin/main/topic/20/change/ 2 4005 0 0
+/details/coca-cola-2 1 15656 0 0
+/details/ruhrei-2x-mit-simit 2 31536 0 0
+/admin/main/dish/54/change/ 1 2239 0 0
+/admin/main/categories/add/ 47 91037 0 0
+/admi 1 15892 0 0
+/admin/ 117 159795 8 3
+/kontakt 12 183782 1 0
+/recipies/hongos-de-aioli-3 1 15676 0 0
+/admim 1 15889 0 0
+/recipies/avocado-de-verdura 4 62666 0 0
+/admin/main/restaurant/add/ 30 71787 1 0
+/admin/main/dish/75/change/ 1 2239 0 0
+/details/timeout-basic 9 142479 0 0
+/admin/main/review/ 7 13333 0 0
+/admin/main/dish/85/change/ 1 2216 0 0
+/admin/main/sub_categories/35/change/ 1 2006 0 0
+/admin/main/topic/13/change/ 1 2005 0 0
+/admin/main/dish/83/change/ 1 2227 0 0
+/admin/main/dish/72/change/ 2 4490 0 0
+/admin/auth/user/2/password/ 6 10671 0 0
+/admin/main/dish/21/change/ 2 4671 0 0
+/admin/auth/group/ 1 1688 0 0
+/login 18 26992 0 0
+/.well-known/acme-challenge/9nayYuCwYAnK8b1a54FzUS3aYVBSN3wkEhTRG4ndMjU 4 428 2 4
+/restaurant/shisha 3 48426 0 1
+/admin/main/price/6/change/ 1 1988 0 0
+/details/pancakes 7 110425 0 0
+/admin/main/dish/23/change/ 1 2259 0 0
+/admin/main/topic/19/change/ 2 4012 0 0
+/admin/main/dish/32/change/ 1 2514 0 0
+/details/avocado-de-verdura-2 1 15701 0 0
+/admin/main/dish/63/change/ 2 4476 0 0
+/admin/main/dish/22/change/ 3 7144 0 0
+/details/apfel-2 19 305184 0 1
+/recipies/turkey-pineapple-packet-on-the-spicy-grill 2 31832 0 0
+/datenschutz 3 49702 0 0
+END_SIDER

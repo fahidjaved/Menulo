@@ -1,0 +1,11 @@
+#!/bin/sh
+umask 0022
+PHPRC=/var/www/ssd1591/conf/php56/
+export PHPRC
+PHP_FCGI_MAX_REQUESTS=5000
+export PHP_FCGI_MAX_REQUESTS
+TMP=/var/www/ssd1591/tmp
+export TMP
+TMPDIR=/var/www/ssd1591/tmp
+export TMPDIR
+exec /opt/php-5.6/bin/php-cgi

@@ -1,0 +1,83 @@
+{% extends "layout/baseDashboard.html" %}
+{% load static %}
+{% block content %}
+
+
+
+
+<section id="content-wrapper" >
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="content-title text-light">Anpassen der Shisha (Sorten)</h2>
+      <div class="card bg-dark p-2">
+        <div class="table-responsive">
+        <table class="table table-dark">
+          <thead>
+            <tr>
+              <th scope="col">Nr.</th>
+              <th scope="col">Bild</th>
+              <th scope="col">Name</th>
+              <th scope="col">Preis</th>
+              
+              <th scope="col">Anpassung</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in dishes %}
+            {% for c in item.catoegory_topics.all %}
+            {% for sc in c.sub_cat_categories.all %}
+            {% for ite in sc.dish_sub_categories.all %}
+            <tr>
+              <form method="post"> 
+                {% csrf_token %}
+                  <th scope="row" style="vertical-align:middle">
+                    {{ ite.id }}
+                  </th>
+                  {% if ite.image %}
+                  <td style="vertical-align:middle;width: 10%"><img src="{{ite.image.img.url}}" alt="" border=3 height=50 width=50></img></td>
+                  {% else %}                  
+                  <td style="vertical-align:middle;width: 10%"><img src="{% static 'main/images/menulo_bilder-folgen-dark-150x150xc.jpg' %}" alt="" border=3 height=50 width=50></img></td>
+                  {% endif %}
+                  <td style="vertical-align:middle">
+                    {% if rest.shisha_sort %}
+                    <div contenteditable >                  
+                      <input class="bg-dark text-light" type="text" name="title" value= "{{ ite.title }}" />
+                      <input type="hidden" value= "{{ ite.id }}" name="id" />              
+                    </div>
+                    {% else %}
+                    {{ite.title}}
+                  {% endif %}
+                  </td>
+                  <td style="vertical-align:middle">
+                    {% if rest.shisha_price %}
+                    <div contenteditable >                  
+                        <input class="bg-dark text-light" type="text" name="price" value= "{{ ite.price }}" />
+                        <input type="hidden" value= "{{ ite.id }}" name="id" />              
+                    </div>
+                    {% else %}
+                    {{ ite.price }}
+                  {% endif %}
+                    
+                  </td>
+                  
+                  <td style="vertical-align:middle">
+                    <button type="submit" value="edit" class="btn " style="background: #e41e26;color: white;">Update</button>
+                  <td> 
+                    
+              </form>             
+            </tr>
+           {% endfor %}
+           {% endfor %}
+           {% endfor %}
+           {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+     
+    </div>
+  </div>
+ 
+</section>
+{% endblock %}

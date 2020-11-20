@@ -1,0 +1,5 @@
+menulo/priv/venv/
+menulo db/
+menulo/priv/menulo/restaurants/__pycache__/
+menulo/priv/menulo/menulo/__pycache__/
+menulo/priv/menulo/restaurants/migrations/__pycache__/

@@ -1,0 +1,74 @@
+{% extends "layout/baseDashboard.html" %}
+{% load static %}
+{% block content %}
+
+
+
+
+<section id="content-wrapper" >
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="content-title text-light">Feedback</h2>
+      <div class="card bg-dark p-2">
+        <div class="table-responsive">
+        <table class="table table-dark">
+          <thead>
+            <tr>
+               <th scope="col">ID</th>
+              <th scope="col">Vorname</th>
+              <th scope="col">Nachname</th>
+              <th scope="col">Adresse</th>
+              <th scope="col">Tel</th>
+              <th scope="col">Email</th>
+              <th scope="col">Datum</th>
+              <th scope="col">Uhrzeit</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            {% for guest in guest_users %}
+            
+            <tr>
+              <form method="post"> 
+                {% csrf_token %}
+                <input type="hidden" value= {{ guest.id }} name="id" />
+                  <th scope="row" style="vertical-align:middle">
+                    {{ guest.id }}
+                  </th>
+
+                            
+                  <td style="vertical-align:middle">{{ guest.vorname }}</td>
+                  <td style="vertical-align:middle">{{ guest.nachname }}</td>
+                  <td style="vertical-align:middle">{{ guest.Adresse }}</td>
+                  <td style="vertical-align:middle">{{ guest.tel }}</td>
+                  <td style="vertical-align:middle">{{ guest.email }}</td>
+                  <td style="vertical-align:middle">{{ guest.created_at.date }}</td>
+                  <td style="vertical-align:middle">{{ guest.created_at.time }}</td>
+
+    
+{#                  <td style="vertical-align:middle">#}
+{#                    #}
+{#                   #}
+{#                    {{ item.user_review }}#}
+{#                  #}
+{#                    #}
+{#                  </td>#}
+                  
+                  <td style="vertical-align:middle">
+                    <button type="submit" value="edit" class="btn " style="background: #e41e26;color: white;">Delete</button>
+                  <td> 
+                    
+              </form>             
+            </tr>
+          
+           {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+     
+    </div>
+  </div>
+ 
+</section>
+{% endblock %}
