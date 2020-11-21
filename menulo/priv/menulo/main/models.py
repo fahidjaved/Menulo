@@ -125,9 +125,10 @@ class review(models.Model):
 class GuestRegister(models.Model):
     vorname = models.CharField(max_length=128)
     nachname = models.CharField(max_length=128)
-    Adresse = models.TextField()
-    tel = models.CharField(max_length=24)
-    email = models.EmailField()
+    tel_email = models.CharField(max_length=256, null=True, blank=True)
+    road = models.CharField(max_length=256, null=True, blank=True)
+    zip_code = models.CharField(max_length=16, null=True, blank=True)
+    location = models.CharField(max_length=256, null=True, blank=True)
     restaurants = models.ForeignKey(
         Restaurant, on_delete=models.CASCADE, verbose_name='Restaurant')
     created_at = models.DateTimeField(auto_now=True)

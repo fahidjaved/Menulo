@@ -33,9 +33,10 @@ def resturent(request, slug):
                 if request.POST.get('guest', 'false') == 'true':
                     guest_register = GuestRegister(vorname=request.POST.get('vorname', ''),
                                                    nachname=request.POST.get('nachname', ''),
-                                                   Adresse=request.POST.get('adresse', ''),
-                                                   tel=request.POST.get('tel', ''),
-                                                   email=request.POST.get('email', ''),
+                                                   tel_email=request.POST.get('tel_email', ''),
+                                                   zip_code=request.POST.get('zip_code', ''),
+                                                   road=request.POST.get('road', ''),
+                                                   location=request.POST.get('location', ''),
                                                    restaurants=rest)
 
                     guest_register.save()

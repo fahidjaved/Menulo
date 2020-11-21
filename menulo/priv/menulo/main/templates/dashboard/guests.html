@@ -17,9 +17,10 @@
                <th scope="col">ID</th>
               <th scope="col">Vorname</th>
               <th scope="col">Nachname</th>
-              <th scope="col">Adresse</th>
-              <th scope="col">Tel</th>
-              <th scope="col">Email</th>
+              <th scope="col">Tel oder Email</th>
+              <th scope="col">Straße</th>
+              <th scope="col">Plz</th>
+              <th scope="col">Ort</th>
               <th scope="col">Datum</th>
               <th scope="col">Uhrzeit</th>
 
@@ -39,9 +40,10 @@
                             
                   <td style="vertical-align:middle">{{ guest.vorname }}</td>
                   <td style="vertical-align:middle">{{ guest.nachname }}</td>
-                  <td style="vertical-align:middle">{{ guest.Adresse }}</td>
-                  <td style="vertical-align:middle">{{ guest.tel }}</td>
-                  <td style="vertical-align:middle">{{ guest.email }}</td>
+                  <td style="vertical-align:middle">{{ guest.tel_email }}</td>
+                  <td style="vertical-align:middle">{{ guest.road }}</td>
+                  <td style="vertical-align:middle">{{ guest.zip_code }}</td>
+                  <td style="vertical-align:middle">{{ guest.location }}</td>
                   <td style="vertical-align:middle">{{ guest.created_at.date }}</td>
                   <td style="vertical-align:middle">{{ guest.created_at.time }}</td>
 

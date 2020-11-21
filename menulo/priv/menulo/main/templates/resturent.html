@@ -292,7 +292,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 sidebar-right" id="register">
 					<div id="comments" class="comments-area" style="margin:10px;">
 						<div id="respond" class="comment-respond">
-							<h3 id="reply-title" class="comment-title">Register <small><a
+							<h3 id="reply-title" class="comment-title">Gäste-Registrierung<small><a
 										rel="nofollow" id="cancel-comment-reply-link" href="/"
 										style="display:none;">Antworten abbrechen</a></small></h3>
 							<form method="post" id="commentform" class="comment-form">
@@ -303,17 +303,20 @@
                                 <input id="author" name="nachname" type="text"
 									class="form-control input-style-1 input-half" placeholder="Nachname" value=""
 									aria-required='true' required style="float: right; margin: 0" />
-                                <input id="author" name="tel" type="text"
-									class="form-control input-style-1 input-half" placeholder="Tel" value=""
+                                <input id="author" name="zip_code" type="text"
+									class="form-control input-style-1 input-half" placeholder="Plz" value=""
 									aria-required='true' required style="float: right; margin: 0; margin-top: 19px" />
-                                <input id="author" name="email" type="email"
-									class="form-control input-style-1 input-half" placeholder="Email" value=""
+                                <input id="author" name="tel_email" type="text"
+									class="form-control input-style-1 input-half" placeholder="Tel oder Email " value=""
 									aria-required='true' required style="margin-top: 19px" />
-                                <input id="author" name="adresse" type="text"
-									class="form-control input-style-1 input-half" placeholder="Adresse" value=""
-									aria-required='true' required  style="width: 100%" />
+                                <input id="author" name="location" type="text"
+									class="form-control input-style-1 input-half" placeholder="Ort" value=""
+									aria-required='true' required style="float: right; margin: 0; margin-top: 19px" />
+                                <input id="author" name="road" type="text"
+									class="form-control input-style-1 input-half" placeholder="Straße " value=""
+									aria-required='true' required />
 								<p class="form-submit"><input name="submit" type="submit" id="submit"
-										class="btn-style-2" value="Senden" /> <input type='hidden'
+										class="btn-style-2" value="Registrieren" style="position: absolute; left:2.5rem; top: 23rem" /> <input type='hidden'
 										name='comment_post_ID' value='165' id='comment_post_ID' />
 									<input type='hidden' name='guest' id='comment_parent' value='true' />
 								</p>
