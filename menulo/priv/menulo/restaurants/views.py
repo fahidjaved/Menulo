@@ -40,6 +40,7 @@ def resturent(request, slug):
                                                    restaurants=rest)
 
                     guest_register.save()
+                    return HttpResponse('success')
                 else:
                     c_name = request.POST["author"]
                     c_review = request.POST["comment"]

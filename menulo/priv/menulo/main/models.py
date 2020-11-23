@@ -41,6 +41,7 @@ class Restaurant(models.Model):
     dish_access = models.BooleanField(default=False, verbose_name='Dish Price')
     shisha_price = models.BooleanField(default=False, verbose_name='Shisha Price')
     shisha_sort = models.BooleanField(default=False, verbose_name='Shisha Sorts')
+    Guests = models.BooleanField(default=False, verbose_name='Gästeliste')
     slider = models.BooleanField(default=False, verbose_name='Promo Slider')
 
     class Meta:

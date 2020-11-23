@@ -381,10 +381,14 @@ a:focus {
       {% endif %} 
       <li>
 			  <a href="/dashboard/feedback"><i class="fa fa-comment"></i>Feedback</a>
+
       </li>
+          {% if rest.Guests %}
            <li>
-			  <a href="/dashboard/guests"><i class="fa fa-user-circle"></i>Guests</a>
-      </li>
+			  <a href="/dashboard/guests"><i class="fa fa-user-circle"></i>Gästeliste</a>
+            </li>
+          {% endif %}
+
       <li>
 			  <a href="/logout"><i class="fa fa-sign-out"></i>Logout</a>
 			</li>

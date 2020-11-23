@@ -3,3 +3,8 @@ menulo db/
 menulo/priv/menulo/restaurants/__pycache__/
 menulo/priv/menulo/menulo/__pycache__/
 menulo/priv/menulo/restaurants/migrations/__pycache__/
+../../../.DS_Store
+.idea/workspace.xml
+main/__pycache__/
+main/migrations/__pycache__/
+data.txt

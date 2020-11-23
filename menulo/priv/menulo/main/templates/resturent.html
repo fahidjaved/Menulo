@@ -2,336 +2,394 @@
 {% load static %}
 {% block content %}
 
-{% include "components/Loader.html" %}
-<div data-rsssl="1" class="page-template page-template-template-fullwidth page-template-template-fullwidth-php page page-id-5117 bo_sp kingcomposer kc-css-system woocommerce-checkout woocommerce-page" cz-shortcut-listen="true">
-	<div class="page-builder page-single pd-top-80 post-5117 page type-page status-publish hentry">
-		<div class="kc_clfw"></div>
-		<div class="kc-elm kc-css-967030 kc_row">
-			<div class="kc-row-container  kc-container">
-				<div class="kc-wrap-columns">
-					<div class="kc-elm kc-css-107103 kc_col-sm-12 kc_column kc_col-sm-12">
-						<div class="kc-col-container">
-							<div class="kc-elm kc-css-636080 kc_row kc_row_inner">
-								<div class="kc-elm kc-css-213471 kc_col-sm-12 kc_column_inner kc_col-sm-12">
-									<div class="kc_wrapper kc-col-inner-container">
-										<div class="kc-elm kc-css-359225 kc_shortcode kc_single_image" style="
+    {% include "components/Loader.html" %}
+     <style>
+    </style>
+    <div data-rsssl="1"
+         class="page-template page-template-template-fullwidth page-template-template-fullwidth-php page page-id-5117 bo_sp kingcomposer kc-css-system woocommerce-checkout woocommerce-page"
+         cz-shortcut-listen="true">
+        <div class="page-builder page-single pd-top-80 post-5117 page type-page status-publish hentry">
+            <div class="kc_clfw"></div>
+            <div class="kc-elm kc-css-967030 kc_row">
+                <div class="kc-row-container  kc-container">
+                    <div class="kc-wrap-columns">
+                        <div class="kc-elm kc-css-107103 kc_col-sm-12 kc_column kc_col-sm-12">
+                            <div class="kc-col-container">
+                                <div class="kc-elm kc-css-636080 kc_row kc_row_inner">
+                                    <div class="kc-elm kc-css-213471 kc_col-sm-12 kc_column_inner kc_col-sm-12">
+                                        <div class="kc_wrapper kc-col-inner-container">
+                                        {% if resturent.Guests %}
+                                        <div class="kc-elm kc-css-359225 kc_shortcode kc_single_image" style="text-align: center;">
+                                            <h5><a href="#register">Gäste-Registrierung </a></h5>
+                                            <p>Nachverfolgung von Infektionen zu Corona</p><br><br>
+
+                                            </div>
+                                        {% endif %}
+                                            <div class="kc-elm kc-css-359225 kc_shortcode kc_single_image" style="
 										text-align: center;
-									">		{% if resturent.logo %}
-											<img src="{{resturent.logo.img.url}}"
-												class="" alt="" />
-											{% endif %} 
-											</div>
-											{% if resturent.slider %}
-											<div class="kc-elm kc-css-359225 kc_shortcode kc_single_image">
-												<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-													
-													<!-- Wrapper for slides -->
-													<div class="carousel-inner" role="listbox">
-														{% if sl_f %}														
-														<div class="item active">															
-															<img src="{{sl_f.promo.img.url}}">															
-														</div>														
-														 {% endif %}
-														 {% for a in sl_all|slice:"1:" %}
-														<div class="item">
-															<img src="{{a.promo.img.url}}">															
-														</div>
-														{% endfor %}
-														
-														<!-- <div class="item">
+									">        {% if resturent.logo %}
+                                                <img src="{{ resturent.logo.img.url }}"
+                                                     class="" alt=""/>
+                                            {% endif %}
+                                            </div>
+                                            {% if resturent.slider %}
+                                                <div class="kc-elm kc-css-359225 kc_shortcode kc_single_image">
+                                                    <div id="carousel-example-generic" class="carousel slide"
+                                                         data-ride="carousel">
+
+                                                        <!-- Wrapper for slides -->
+                                                        <div class="carousel-inner" role="listbox">
+                                                            {% if sl_f %}
+                                                                <div class="item active">
+                                                                    <img src="{{ sl_f.promo.img.url }}">
+                                                                </div>
+                                                            {% endif %}
+                                                            {% for a in sl_all|slice:"1:" %}
+                                                                <div class="item">
+                                                                    <img src="{{ a.promo.img.url }}">
+                                                                </div>
+                                                            {% endfor %}
+
+                                                            <!-- <div class="item">
 															<img src="{{resturent.promot.img.url}}">															
 														</div>  -->
-													</div>
-										
-													<!-- Controls -->
-													<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-														<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-														<span class="sr-only">Previous</span>
-													</a>
-													<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-														<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-														<span class="sr-only">Next</span>
-													</a>
-												</div>
-											</div>
-											{% endif %} 
+                                                        </div>
+
+                                                        <!-- Controls -->
+                                                        <a class="left carousel-control"
+                                                           href="#carousel-example-generic" role="button"
+                                                           data-slide="prev">
+                                                            <span class="glyphicon glyphicon-chevron-left"
+                                                                  aria-hidden="true"></span>
+                                                            <span class="sr-only">Previous</span>
+                                                        </a>
+                                                        <a class="right carousel-control"
+                                                           href="#carousel-example-generic" role="button"
+                                                           data-slide="next">
+                                                            <span class="glyphicon glyphicon-chevron-right"
+                                                                  aria-hidden="true"></span>
+                                                            <span class="sr-only">Next</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            {% endif %}
 
 
-													
-										<div class="kc-elm kc-css-434597 kc-title-wrap " style="margin-top: 15px;">
-											{% if top.name %}
-											<h1 id="toptitle" class="kc_title food_cl">{{top.name|title}}</h1>
-											{% endif %}
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="kc-elm kc-css-41151" style="height: 35px; clear: both; width:100%;"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="tab_sz" class="kc-elm kc-css-366809 kc_row">
-			<div class="kc-row-container  kc-container">
-				<div class="kc-wrap-columns">
-					<div class="kc-elm kc-css-570586 kc_col-sm-12 kc_column kc_col-sm-12">
-						<div class="kc-col-container">
-							<div data-open-on-mouseover="" data-tab-active="1" data-effect-option=""
-								class="kc-elm kc-css-755577 kc_tabs group">
-								<div class="kc_wrapper ui-tabs kc_clearfix">
-									<ul class="kc_tabs_nav ui-tabs-nav kc_clearfix" id="toplist">
-										{% for item in topi|dictsort:"order_num" %}
-										<li ><a href="#{{item.name}}" id="{{item.id}}" data-prevent="scroll">{{item.name}}</a></li>
-										{% endfor %}
-									</ul>
-									
-									{% for item in topi|dictsort:"order_num" %}
-									<div id="{{item.name}}"
-										class="kc-elm kc-css-427898 kc_tab ui-tabs-panel kc_ui-tabs-hide kc_clearfix tab_sz">
-										<div class="kc_tab_content">
-											<div class="kc-elm kc-css-52417"
-												style="height: 10px; clear: both; width:100%;">
-											</div>
-											{% for mai in item.catoegory_topics.all|dictsort:"order_num" %}
-											<div class="kc-elm kc-css-835150 kc-title-wrap ">
-												<h1 class="kc_title">{{mai.name}}</h1>
-											</div>
-											<div data-open-on-mouseover="" data-tab-active="1" data-effect-option=""
-												class="kc-elm kc-css-253409 kc_tabs group">
-												<div class="kc_wrapper ui-tabs kc_clearfix">
-													<ul class="kc_tabs_nav ui-tabs-nav kc_clearfix">
-														{% for cat in mai.sub_cat_categories.all|dictsort:"order_num" %}
-														<li><a href="#{{cat.name}}"
-															data-prevent="scroll">{{cat.name}}<br>
-															{% with cat.price_cat.all|first as price %}
-															{% if price %}
-															{{price}} €
-															{% endif %}
-															{% endwith %} 
-														</a></li>															
-														{% endfor %}
-													</ul>
-													{% for subcat in mai.sub_cat_categories.all|dictsort:"order_num" %}
-													<div id="{{subcat.name}}"
-														class=" kc_tab ui-tabs-panel kc_ui-tabs-hide  "
-														>
-														
-														<div class="kc_tab_content">
-															<div class="kc-elm kc-css-829837"
-																></div>
-																<div class="d-flex justify-content-center text-center mt-5" >
-															
-{#																	<p class="text-white bg-dark">{{subcat.intro}} </p>#}
-                                                                    {% for intro_text in subcat.intro_as_list %}
-                                                                        <p style="margin: 0px">{{ intro_text }}</p>
-                                                                        {% endfor %}
-																</div>
-															<div
-																class="kc-elm kc-css-321376 kc-blog-posts
+
+                                            <div class="kc-elm kc-css-434597 kc-title-wrap " style="margin-top: 15px;">
+                                                {% if top.name %}
+                                                    <h1 id="toptitle" class="kc_title food_cl">{{ top.name|title }}</h1>
+                                                {% endif %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="kc-elm kc-css-41151" style="height: 35px; clear: both; width:100%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tab_sz" class="kc-elm kc-css-366809 kc_row">
+                <div class="kc-row-container  kc-container">
+                    <div class="kc-wrap-columns">
+                        <div class="kc-elm kc-css-570586 kc_col-sm-12 kc_column kc_col-sm-12">
+                            <div class="kc-col-container">
+                                <div data-open-on-mouseover="" data-tab-active="1" data-effect-option=""
+                                     class="kc-elm kc-css-755577 kc_tabs group">
+                                    <div class="kc_wrapper ui-tabs kc_clearfix">
+                                        <ul class="kc_tabs_nav ui-tabs-nav kc_clearfix" id="toplist">
+                                            {% for item in topi|dictsort:"order_num" %}
+                                                <li><a href="#{{ item.name }}" id="{{ item.id }}"
+                                                       data-prevent="scroll">{{ item.name }}</a></li>
+                                            {% endfor %}
+                                        </ul>
+
+                                        {% for item in topi|dictsort:"order_num" %}
+                                            <div id="{{ item.name }}"
+                                                 class="kc-elm kc-css-427898 kc_tab ui-tabs-panel kc_ui-tabs-hide kc_clearfix tab_sz">
+                                                <div class="kc_tab_content">
+                                                    <div class="kc-elm kc-css-52417"
+                                                         style="height: 10px; clear: both; width:100%;">
+                                                    </div>
+                                                    {% for mai in item.catoegory_topics.all|dictsort:"order_num" %}
+                                                        <div class="kc-elm kc-css-835150 kc-title-wrap ">
+                                                            <h1 class="kc_title">{{ mai.name }}</h1>
+                                                        </div>
+                                                        <div data-open-on-mouseover="" data-tab-active="1"
+                                                             data-effect-option=""
+                                                             class="kc-elm kc-css-253409 kc_tabs group">
+                                                            <div class="kc_wrapper ui-tabs kc_clearfix">
+                                                                <ul class="kc_tabs_nav ui-tabs-nav kc_clearfix">
+                                                                    {% for cat in mai.sub_cat_categories.all|dictsort:"order_num" %}
+                                                                        <li><a href="#{{ cat.name }}"
+                                                                               data-prevent="scroll">{{ cat.name }}<br>
+                                                                            {% with cat.price_cat.all|first as price %}
+                                                                                {% if price %}
+                                                                                    {{ price }} €
+                                                                                {% endif %}
+                                                                            {% endwith %}
+                                                                        </a></li>
+                                                                    {% endfor %}
+                                                                </ul>
+                                                                {% for subcat in mai.sub_cat_categories.all|dictsort:"order_num" %}
+                                                                    <div id="{{ subcat.name }}"
+                                                                         class=" kc_tab ui-tabs-panel kc_ui-tabs-hide  "
+                                                                    >
+
+                                                                        <div class="kc_tab_content">
+                                                                            <div class="kc-elm kc-css-829837"
+                                                                            ></div>
+                                                                            <div class="d-flex justify-content-center text-center mt-5">
+
+                                                                                {#																	<p class="text-white bg-dark">{{subcat.intro}} </p>#}
+                                                                                {% for intro_text in subcat.intro_as_list %}
+                                                                                    <p style="margin: 0px">{{ intro_text }}</p>
+                                                                                {% endfor %}
+                                                                            </div>
+                                                                            <div
+                                                                                    class="kc-elm kc-css-321376 kc-blog-posts
 																kc-blog-posts-3 kc-blog-grid
 																kc_blog_masonry kc-image-align-both"
-																style="margin-top: 10px;">
-																{% for cat in subcat.dish_sub_categories.all|dictsort:"order_num" %}
-																
-																<div class="post-grid grid-4">
-																	<div class="kc-list-item-3">
-																		<!--	<a href="" class="entry-thumb-link"> -->
-																			{% if cat.image %}
-																		<div class="entry-thumb-wrapper">
-																			<img src="{{cat.image.img.url}}"
-																				alt="Avocado de Verdura" />
-																			<div class="entry-thumb-overlay"></div>
-																		</div>
-																		{% else %}
-																		<div class="entry-thumb-wrapper">
-																			<img src="{% static 'main/images/menulo_bilder250.svg' %}"
-																				alt="Avocado de Verdura" />
-																			<div class="entry-thumb-overlay"></div>
-																		</div>
-																		{% endif %}
-																		<!--</a> -->
-																		<div class="content">
-																			<h2 class="post-title-alt">{{cat.title}}
-																			</h2>
-																			<div class="entry-meta">
-																			</div>
-																			<div class="entry-excerpt">
-																				{% if cat.description|length > 61 %}
-																				<p>{{cat.description|slice:":61"}}&hellip;</p>
-																				{% else %}
-																				<p>{{cat.description}}</p>
-																				{% endif %}
-																			</div>
-																			<div>
-																				{% if cat.price == None %}
-																				
-																					{% if cat.size_dishs.all %}
-																						<div data-open-on-mouseover="" data-tab-active="1" data-effect-option=""
-																							class="kc-elm kc-css-755577 kc_tabs group">
-																							<div class="kc_wrapper ui-tabs kc_clearfix">
-																								<ul class="kc_tabs_nav ui-tabs-nav kc_clearfix" id="toplist">
-																									{% for item in cat.size_dishs.all %}
-																									<li ><a href="#{{item.size}}" data-prevent="scroll"  style="text-transform: lowercase;">{{item.size|lower}}</a></li>
-																									{% endfor %}
-																								</ul>
-																								{% for item in cat.size_dishs.all %}
-																								{% if item.size %}
-																								<div id="{{item.size}}"
-																									class="kc-elm kc-css-345271 kc_tab ui-tabs-panel kc_ui-tabs-hide kc_clearfix ">
-																									<div class="kc_tab_content">
-																										
-																										<!-- <div class="kc-elm kc-css-321376 kc-blog-posts  kc-blog-grid kc_blog_masonry kc-image-align-both" style=" position: relative; height: auto; "> -->
-																											<div class="kc_wrapper ui-tabs kc_clearfix">
-																												<div class="single-recipe-price text-left">
-																				
-																													<p id="price">{{item.price}} €</p>
-																												</div>
-																												<div class="single-recipe-price text-left">
-																												<a href="/details/{{cat.slug}}"
-																												class="kc-post-2-button">Mehr <i
-																													class="fa fa-angle-right"
-																													aria-hidden="true"></i></a>	
-																												</div>
-																											
-																											
-																											
-																										</div>
-																									</div>
-																								</div>
-																								{% endif %}
-																								{% endfor %}
-																							</div>
-																						</div>
-																					{% else %}
-																					<div class="single-recipe-price text-left" style="
+                                                                                    style="margin-top: 10px;">
+                                                                                {% for cat in subcat.dish_sub_categories.all|dictsort:"order_num" %}
+
+                                                                                    <div class="post-grid grid-4">
+                                                                                        <div class="kc-list-item-3">
+                                                                                            <!--	<a href="" class="entry-thumb-link"> -->
+                                                                                            {% if cat.image %}
+                                                                                                <div class="entry-thumb-wrapper">
+                                                                                                    <img src="{{ cat.image.img.url }}"
+                                                                                                         alt="Avocado de Verdura"/>
+                                                                                                    <div class="entry-thumb-overlay"></div>
+                                                                                                </div>
+                                                                                            {% else %}
+                                                                                                <div class="entry-thumb-wrapper">
+                                                                                                    <img src="{% static 'main/images/menulo_bilder250.svg' %}"
+                                                                                                         alt="Avocado de Verdura"/>
+                                                                                                    <div class="entry-thumb-overlay"></div>
+                                                                                                </div>
+                                                                                            {% endif %}
+                                                                                            <!--</a> -->
+                                                                                            <div class="content">
+                                                                                                <h2 class="post-title-alt">{{ cat.title }}
+                                                                                                </h2>
+                                                                                                <div class="entry-meta">
+                                                                                                </div>
+                                                                                                <div class="entry-excerpt">
+                                                                                                    {% if cat.description|length > 61 %}
+                                                                                                        <p>
+                                                                                                            {{ cat.description|slice:":61" }}&hellip;</p>
+                                                                                                    {% else %}
+                                                                                                        <p>{{ cat.description }}</p>
+                                                                                                    {% endif %}
+                                                                                                </div>
+                                                                                                <div>
+                                                                                                    {% if cat.price == None %}
+
+                                                                                                        {% if cat.size_dishs.all %}
+                                                                                                            <div data-open-on-mouseover=""
+                                                                                                                 data-tab-active="1"
+                                                                                                                 data-effect-option=""
+                                                                                                                 class="kc-elm kc-css-755577 kc_tabs group">
+                                                                                                                <div class="kc_wrapper ui-tabs kc_clearfix">
+                                                                                                                    <ul class="kc_tabs_nav ui-tabs-nav kc_clearfix"
+                                                                                                                        id="toplist">
+                                                                                                                        {% for item in cat.size_dishs.all %}
+                                                                                                                            <li>
+                                                                                                                                <a href="#{{ item.size }}"
+                                                                                                                                   data-prevent="scroll"
+                                                                                                                                   style="text-transform: lowercase;">{{ item.size|lower }}</a>
+                                                                                                                            </li>
+                                                                                                                        {% endfor %}
+                                                                                                                    </ul>
+                                                                                                                    {% for item in cat.size_dishs.all %}
+                                                                                                                        {% if item.size %}
+                                                                                                                            <div id="{{ item.size }}"
+                                                                                                                                 class="kc-elm kc-css-345271 kc_tab ui-tabs-panel kc_ui-tabs-hide kc_clearfix ">
+                                                                                                                                <div class="kc_tab_content">
+
+                                                                                                                                    <!-- <div class="kc-elm kc-css-321376 kc-blog-posts  kc-blog-grid kc_blog_masonry kc-image-align-both" style=" position: relative; height: auto; "> -->
+                                                                                                                                    <div class="kc_wrapper ui-tabs kc_clearfix">
+                                                                                                                                        <div class="single-recipe-price text-left">
+
+                                                                                                                                            <p id="price">{{ item.price }}
+                                                                                                                                                €</p>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="single-recipe-price text-left">
+                                                                                                                                            <a href="/details/{{ cat.slug }}"
+                                                                                                                                               class="kc-post-2-button">Mehr
+                                                                                                                                                <i
+                                                                                                                                                        class="fa fa-angle-right"
+                                                                                                                                                        aria-hidden="true"></i></a>
+                                                                                                                                        </div>
+
+
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        {% endif %}
+                                                                                                                    {% endfor %}
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        {% else %}
+                                                                                                            <div class="single-recipe-price text-left"
+                                                                                                                 style="
 																					margin-top: 25px; margin-bottom: 55px;
-																				">	
-																						<a href="/details/{{cat.slug}}"
-																						class="kc-post-2-button">Mehr <i
-																							class="fa fa-angle-right"
-																							aria-hidden="true"></i></a>	
-																						</div>
-																					{% endif %}
-																					
-																					
-																				{% else %}
-																			
-																			<div class="single-recipe-price text-left">
-																				
-																				<p id="price">{{cat.price}} €</p>
-																			</div>
-																			<a href="/details/{{cat.slug}}"
-																										class="kc-post-2-button">Mehr <i
-																											class="fa fa-angle-right"
-																											aria-hidden="true"></i></a>
-																			{% endif %}
-																			
-																				
-																		
-																		</div>
-																		</div>
-																	</div>
-																</div>
-																
-																{% endfor %}
-															</div>
-														</div>
-													</div>
-													{% endfor %}
-												</div>
-											</div>
-											{% endfor %}
-										</div>
-									</div>
-									{% endfor %}
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="blog-single pd-top-80 pd-bottom-80">
-        <div class="container">
-            <div class="row">
-               
-                <div class="col-lg-12 col-md-12 col-sm-12 sidebar-right">
-					<div id="comments" class="comments-area" style="margin:10px;">
-						<div id="respond" class="comment-respond">
-							<h3 id="reply-title" class="comment-title">Feedback <small><a
-										rel="nofollow" id="cancel-comment-reply-link" href="/"
-										style="display:none;">Antworten abbrechen</a></small></h3>
-							<form method="post" id="commentform" class="comment-form">
-								{% csrf_token %}
-								<input id="author" name="author" type="text"
-									class="form-control input-style-1 input-half" placeholder="Name" value=""
-									aria-required='true' required />								
-								<textarea autocomplete="new-password" id="comment" name="comment"
-									class="form-control textarea-style-1" placeholder="Dein Feedback..."
-									cols="5" rows="2" aria-required='true' required></textarea>
-								<p class="form-submit"><input name="submit" type="submit" id="submit"
-										class="btn-style-2" value="Senden" /> <input type='hidden'
-										name='comment_post_ID' value='165' id='comment_post_ID' />
-									<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
-								</p>
-								<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js"
-										value="216" /></p>
-							</form>
-						</div><!-- #respond -->
-					</div><!-- .comments-area -->
-                   
+																				">
+                                                                                                                <a href="/details/{{ cat.slug }}"
+                                                                                                                   class="kc-post-2-button">Mehr
+                                                                                                                    <i
+                                                                                                                            class="fa fa-angle-right"
+                                                                                                                            aria-hidden="true"></i></a>
+                                                                                                            </div>
+                                                                                                        {% endif %}
+
+
+                                                                                                    {% else %}
+
+                                                                                                        <div class="single-recipe-price text-left">
+
+                                                                                                            <p id="price">{{ cat.price }}
+                                                                                                                €</p>
+                                                                                                        </div>
+                                                                                                        <a href="/details/{{ cat.slug }}"
+                                                                                                           class="kc-post-2-button">Mehr
+                                                                                                            <i
+                                                                                                                    class="fa fa-angle-right"
+                                                                                                                    aria-hidden="true"></i></a>
+                                                                                                    {% endif %}
+
+
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                {% endfor %}
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                {% endfor %}
+                                                            </div>
+                                                        </div>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                        {% endfor %}
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <!---  Guest Register  --->
-            <div class="row">
-
-                <div class="col-lg-12 col-md-12 col-sm-12 sidebar-right" id="register">
-					<div id="comments" class="comments-area" style="margin:10px;">
-						<div id="respond" class="comment-respond">
-							<h3 id="reply-title" class="comment-title">Gäste-Registrierung<small><a
-										rel="nofollow" id="cancel-comment-reply-link" href="/"
-										style="display:none;">Antworten abbrechen</a></small></h3>
-							<form method="post" id="commentform" class="comment-form">
-								{% csrf_token %}
-								<input id="author" name="vorname" type="text"
-									class="form-control input-style-1 input-half" placeholder="Vorname" value=""
-									aria-required='true' required style="margin: 0" />
-                                <input id="author" name="nachname" type="text"
-									class="form-control input-style-1 input-half" placeholder="Nachname" value=""
-									aria-required='true' required style="float: right; margin: 0" />
-                                <input id="author" name="zip_code" type="text"
-									class="form-control input-style-1 input-half" placeholder="Plz" value=""
-									aria-required='true' required style="float: right; margin: 0; margin-top: 19px" />
-                                <input id="author" name="tel_email" type="text"
-									class="form-control input-style-1 input-half" placeholder="Tel oder Email " value=""
-									aria-required='true' required style="margin-top: 19px" />
-                                <input id="author" name="location" type="text"
-									class="form-control input-style-1 input-half" placeholder="Ort" value=""
-									aria-required='true' required style="float: right; margin: 0; margin-top: 19px" />
-                                <input id="author" name="road" type="text"
-									class="form-control input-style-1 input-half" placeholder="Straße " value=""
-									aria-required='true' required />
-								<p class="form-submit"><input name="submit" type="submit" id="submit"
-										class="btn-style-2" value="Registrieren" style="position: absolute; left:2.5rem; top: 23rem" /> <input type='hidden'
-										name='comment_post_ID' value='165' id='comment_post_ID' />
-									<input type='hidden' name='guest' id='comment_parent' value='true' />
-								</p>
-								<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js"
-										value="216" /></p>
-							</form>
-						</div><!-- #respond -->
-					</div><!-- .comments-area -->
-
-                </div>
-            </div>
-
         </div>
+        <div class="blog-single pd-top-80 pd-bottom-80">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 sidebar-right">
+                        <div id="comments" class="comments-area" style="margin:10px;">
+                            <div id="respond" class="comment-respond">
+                                <h3 id="reply-title" class="comment-title">Feedback <small><a
+                                        rel="nofollow" id="cancel-comment-reply-link" href="/"
+                                        style="display:none;">Antworten abbrechen</a></small></h3>
+                                <form method="post" id="commentform" class="comment-form">
+                                    {% csrf_token %}
+                                    <input id="author" name="author" type="text"
+                                           class="form-control input-style-1 input-half" placeholder="Name" value=""
+                                           aria-required='true' required/>
+                                    <textarea autocomplete="new-password" id="comment" name="comment"
+                                              class="form-control textarea-style-1" placeholder="Dein Feedback..."
+                                              cols="5" rows="2" aria-required='true' required></textarea>
+                                    <p class="form-submit"><input name="submit" type="submit" id="submit"
+                                                                  class="btn-style-2" value="Senden"/> <input
+                                            type='hidden'
+                                            name='comment_post_ID' value='165' id='comment_post_ID'/>
+                                        <input type='hidden' name='comment_parent' id='comment_parent' value='0'/>
+                                    </p>
+                                    <p style="display: none;"><input type="hidden" id="ak_js" name="ak_js"
+                                                                     value="216"/></p>
+                                </form>
+                            </div><!-- #respond -->
+                        </div><!-- .comments-area -->
+
+                    </div>
+                </div>
+
+                <!---  Guest Register  --->
+                {% if resturent.Guests %}
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-12 col-sm-12 sidebar-right" id="register">
+                        <div id="comments" class="comments-area" style="margin:10px;">
+                            <div id="respond" class="comment-respond">
+                                <h3 id="reply-title" class="comment-title">Gäste-Registrierung<small><a
+                                        rel="nofollow" id="cancel-comment-reply-link" href="/"
+                                        style="display:none;">Antworten abbrechen</a></small></h3>
+                                <form id="guest-form" class="comment-form" method="post">
+                                    {% csrf_token %}
+                                    <input id="author" name="vorname" type="text"
+                                           class="form-control input-style-1 input-half" placeholder="Vorname" value=""
+                                           aria-required='true' required oninvalid="this.setCustomValidity('Erforderlich')" oninput="setCustomValidity('')" style="margin: 0"/>
+                                    <input id="author" name="nachname" type="text"
+                                           class="form-control input-style-1 input-half" placeholder="Nachname" value=""
+                                           aria-required='true' required="" oninvalid="this.setCustomValidity('Erforderlich')" oninput="setCustomValidity('')" style="float: right; margin: 0"/>
+                                    <input id="author" name="zip_code" type="text"
+                                           class="form-control input-style-1 input-half" placeholder="Plz" value=""
+                                           aria-required='true' required="" oninvalid="this.setCustomValidity('Erforderlich')" oninput="setCustomValidity('')"
+                                           style="float: right; margin: 0; margin-top: 19px"/>
+                                    <input id="author" name="tel_email" type="text"
+                                           class="form-control input-style-1 input-half" placeholder="Tel oder Email "
+                                           value=""
+                                           aria-required='true' required="" oninvalid="this.setCustomValidity('Erforderlich')" oninput="setCustomValidity('')" style="margin-top: 19px"/>
+                                    <input id="author" name="location" type="text"
+                                           class="form-control input-style-1 input-half" placeholder="Ort" value=""
+                                           aria-required='true' required="" oninvalid="this.setCustomValidity('Erforderlich')" oninput="setCustomValidity('')"
+                                           style="float: right; margin: 0; margin-top: 19px"/>
+                                    <input id="author" name="road" type="text"
+                                           class="form-control input-style-1 input-half" placeholder="Straße " value=""
+                                           aria-required='true' required="" oninvalid="this.setCustomValidity('Erforderlich')" oninput="setCustomValidity('')" />
+
+                                    <div style="width: 1.5%;">
+                                    <input type="checkbox"
+                                           class="form-control" value=""
+                                           aria-required='true' required="" oninvalid="this.setCustomValidity('Erforderlich')" oninput="setCustomValidity('')" />
+                                        </div>
+
+                                    <span style="position: absolute; left: 4%; bottom: 19%; color: white">Ich willige ein in die Verarbeitung meiner Gesundheitsdaten für pharmazeutische Dienstleistungen.*</span>
+
+                                    <span id="guest_message" style="position: absolute; left: 14%; bottom: 7%; color: green; visibility: hidden;"> Registrierung erfolgreich</span>
+
+                                    <p class="form-submit"><input name="submit" type="submit" id="submit"
+                                                                  class="btn-style-2" value="Registrieren"/>
+
+                                        <input type='hidden'
+                                               name='comment_post_ID' value='165' id='comment_post_ID'/>
+                                        <input type='hidden' name='guest' id='comment_parent' value='true'/>
+                                    </p>
+                                    <p style="display: none;"><input type="hidden" id="ak_js" name="ak_js"
+                                                                     value="216"/></p>
+                                </form>
+                            </div><!-- #respond -->
+                        </div><!-- .comments-area -->
+
+                    </div>
+                </div>
+
+                {% endif %}
+
+            </div>
+        </div>
+        <div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+        <div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
     </div>
-	<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
-	<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
-</div>
+
 {% endblock %}
+
+
+{% block javascriptblock %}
+    <script src="{% static 'main/custom_js/forms.js' %}"></script>
+{% endblock javascriptblock %}
