@@ -7,6 +7,15 @@
 
 <section id="content-wrapper" >
   <div class="row">
+
+  <div style="color: white; margin-left: 31rem;">
+      <form action="" method="POST">
+          {% csrf_token %}
+      To: <input type="date" name="to_date">
+      From: <input type="date" name="from_date">
+      <button type="submit" value="edit" class="btn " style="background: #e41e26;color: white;">Delete</button>
+      </form>
+  </div>
     <div class="col-lg-12">
       <h2 class="content-title text-light">Gäste-Registrierung Liste</h2>
       <div class="card bg-dark p-2">
@@ -38,7 +47,7 @@
                   </th>
 
                    <td style="vertical-align:middle">{{ guest.created_at.date }}</td>
-                  <td style="vertical-align:middle">{{ guest.created_at.time }}</td>
+                  <td style="vertical-align:middle">{{ guest.created_at.time|date:"G:i:s" }}</td>
                             
                   <td style="vertical-align:middle">{{ guest.vorname }}</td>
                   <td style="vertical-align:middle">{{ guest.nachname }}</td>
@@ -74,4 +83,8 @@
   </div>
  
 </section>
+    <script>
+    // Data Picker Initialization
+    $('.datepicker').datepicker();
+        </script>
 {% endblock %}

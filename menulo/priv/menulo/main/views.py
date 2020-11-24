@@ -296,6 +296,8 @@ def feedback(request):
 def guests(request):
     user = request.user
     rest = Restaurant.objects.filter(user=user.id).first()
+    if request.method == 'POST':
+        GuestRegister.objects.filter(Q(created_at__date__gte=request.POST['to_date']) & Q(created_at__date__lte=request.POST['from_date'])).delete()
     if rest:
         guest_users = GuestRegister.objects.filter(restaurants=rest.id).all()
         tp = topic.objects.filter(Q(restaurants=rest.id) & ~Q(name='shisha')).all()
