@@ -191,7 +191,10 @@ def dashboard(request):
     id = request.user
 
     if id:
+
         rest = Restaurant.objects.filter(user=id).first()
+        if not rest:
+            return render(request, 'dashboard/price.html')
         tp = topic.objects.filter(Q(restaurants=rest.id) & ~Q(name='shisha')).all()
         top = topic.objects.filter(Q(restaurants=rest.id) & ~Q(name='shisha')).first()
         ss = topic.objects.filter(Q(restaurants=rest.id) & Q(name='shisha')).first()
@@ -296,6 +299,8 @@ def feedback(request):
 def guests(request):
     user = request.user
     rest = Restaurant.objects.filter(user=user.id).first()
+    if request.method == 'POST':
+        GuestRegister.objects.filter(Q(created_at__date__gte=request.POST['to_date']) & Q(created_at__date__lte=request.POST['from_date'])).delete()
     if rest:
         guest_users = GuestRegister.objects.filter(restaurants=rest.id).all()
         tp = topic.objects.filter(Q(restaurants=rest.id) & ~Q(name='shisha')).all()
