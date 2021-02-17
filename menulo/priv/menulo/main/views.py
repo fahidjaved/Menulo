@@ -191,7 +191,10 @@ def dashboard(request):
     id = request.user
 
     if id:
+
         rest = Restaurant.objects.filter(user=id).first()
+        if not rest:
+            return render(request, 'dashboard/price.html')
         tp = topic.objects.filter(Q(restaurants=rest.id) & ~Q(name='shisha')).all()
         top = topic.objects.filter(Q(restaurants=rest.id) & ~Q(name='shisha')).first()
         ss = topic.objects.filter(Q(restaurants=rest.id) & Q(name='shisha')).first()
