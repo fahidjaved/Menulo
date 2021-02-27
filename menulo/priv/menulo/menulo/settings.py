@@ -45,8 +45,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'storages',
     'restaurants.apps.RestaurantsConfig',
-    'dynamic.apps.DynamicConfig'
-    
+    'dynamic.apps.DynamicConfig',
     
     
 ]
@@ -207,4 +206,4 @@ EMAIL_HOST_USER = 'info@menulo.de'
 EMAIL_HOST_PASSWORD = 'MeToMail369+12,'
 DEFAULT_FROM_EMAIL = 'info@menulo.de'
 
-
+GOOGLE_ANALYTICS_KEY = ''

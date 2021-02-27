@@ -16,30 +16,36 @@ from django.contrib.auth import logout as auth_logout
 
 
 # Create your views here.
-
+GOOGLE_ANALYTICS_KEY = settings.GOOGLE_ANALYTICS_KEY
 def home(request):
     # hom=Home.objects.get()
     hom = Home.objects.all()
     if hom:
         context = {
             "welcome": hom.welcome,
-            "home": hom
+            "home": hom,
+            'google_analytics_key': GOOGLE_ANALYTICS_KEY
         }
     else:
         context = {
             "welcome": '',
-            "home": hom
+            "home": hom,
+            'google_analytics_key': GOOGLE_ANALYTICS_KEY
         }
     return render(request, 'index.html', context)
 
 
 def funktioniert(request):
-    home = Home.objects.get()
-    context = {
-        "welcome": home.welcome,
-        "home": home
-    }
-    return render(request, 'funktioniert.html', context)
+    try:
+        home = Home.objects.get()
+        context = {
+            "welcome": home.welcome,
+            "home": home,
+            'google_analytics_key': GOOGLE_ANALYTICS_KEY
+        }
+        return render(request, 'funktioniert.html', context)
+    except Exception as e:
+        return render(request, 'funktioniert.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 def resturent(request, slug):
@@ -72,27 +78,31 @@ def resturent(request, slug):
             "dish": dishes,
             "sizes": sizes,
             "prices": prices,
+            'google_analytics_key': GOOGLE_ANALYTICS_KEY
         }
 
         return render(request, 'resturent.html', context)
     else:
-        return render(request, 'resturent.html')
+        return render(request, 'resturent.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 def Kontakt(request):
-    kontakt = contact.objects.get()
-    if kontakt:
+    try:
+        kontakt = contact.objects.get()
         context = {
-            "kontakt": kontakt
+            "kontakt": kontakt,
+            'google_analytics_key': GOOGLE_ANALYTICS_KEY
         }
         return render(request, 'kontakt.html', context)
-    return render(request, 'kontakt.html')
+    except Exception as e:
+        return render(request, 'kontakt.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 def impressum(request):
     data = imprint.objects.get()
     context = {
-        "imprint": data
+        "imprint": data,
+        'google_analytics_key': GOOGLE_ANALYTICS_KEY
     }
     return render(request, 'impressum.html', context)
 
@@ -100,7 +110,8 @@ def impressum(request):
 def agb(request):
     ag = AGB.objects.get()
     context = {
-        "agb": ag
+        "agb": ag,
+        'google_analytics_key': GOOGLE_ANALYTICS_KEY
     }
     return render(request, 'agb.html', context)
 
@@ -108,7 +119,8 @@ def agb(request):
 def privacy(request):
     privacy = data_protection.objects.get()
     context = {
-        "privacy": privacy
+        "privacy": privacy,
+        'google_analytics_key': GOOGLE_ANALYTICS_KEY
     }
     return render(request, 'datenschutz.html', context)
 
@@ -125,9 +137,9 @@ def login(request):
             auth(request, user)
             return redirect('main:dashboard')
         else:
-            return render(request, 'login.html')
+            return render(request, 'login.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
-    return render(request, 'login.html')
+    return render(request, 'login.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 def log_out(request):
@@ -136,23 +148,23 @@ def log_out(request):
 
 
 def bestellen(request):
-    return render(request, 'bestellen.html')
+    return render(request, 'bestellen.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 def speisekarte(request):
-    return render(request, 'speisekarte.html')
+    return render(request, 'speisekarte.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 def qr_code(request):
-    return render(request, 'qr_code.html')
+    return render(request, 'qr_code.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 def allgemein(request):
-    return render(request, 'allgemein.html')
+    return render(request, 'allgemein.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 def zusammenstellen(request):
-    return render(request, 'zusammenstellen.html')
+    return render(request, 'zusammenstellen.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 def itemdetail1(request, slug):
@@ -165,8 +177,8 @@ def itemdetail1(request, slug):
     topi = topic.objects.filter(Q(restaurants=rest.id) & Q(name='shisha') & Q(id=main_cat.menu.id)).first()
     # print(topi)
     if rest:
-        return render(request, 'product.html', {"rest": rest, "dish": dishes, "sizes": sizes, "top": topi})
-    return render(request, 'product.html')
+        return render(request, 'product.html', {"rest": rest, "dish": dishes, "sizes": sizes, "top": topi, 'google_analytics_key': GOOGLE_ANALYTICS_KEY})
+    return render(request, 'product.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 def itemdetail2(request, slug, id):
@@ -182,8 +194,8 @@ def itemdetail2(request, slug, id):
     if rest:
         if top == "shisha":
             law = rest.shisha_law
-            return render(request, 'product.html', {"rest": rest, "dish": dishes, "sizes": sizes, "law": law})
-    return render(request, 'product.html')
+            return render(request, 'product.html', {"rest": rest, "dish": dishes, "sizes": sizes, "law": law, 'google_analytics_key': GOOGLE_ANALYTICS_KEY})
+    return render(request, 'product.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 @login_required(login_url='/login')
@@ -194,7 +206,7 @@ def dashboard(request):
 
         rest = Restaurant.objects.filter(user=id).first()
         if not rest:
-            return render(request, 'dashboard/price.html')
+            return render(request, 'dashboard/price.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
         tp = topic.objects.filter(Q(restaurants=rest.id) & ~Q(name='shisha')).all()
         top = topic.objects.filter(Q(restaurants=rest.id) & ~Q(name='shisha')).first()
         ss = topic.objects.filter(Q(restaurants=rest.id) & Q(name='shisha')).first()
@@ -209,7 +221,7 @@ def dashboard(request):
             query = request.GET.get('q')
             if query:
                 dishi = dish.objects.filter(Q(restaurants=rest.id) & Q(title__icontains=query))
-                return render(request, 'dashboard/price.html', {"dishes": tp, "search": dishi, "top": ns})
+                return render(request, 'dashboard/price.html', {"dishes": tp, "search": dishi, "top": ns, 'google_analytics_key': GOOGLE_ANALYTICS_KEY})
             else:
                 return None
 
@@ -229,9 +241,9 @@ def dashboard(request):
             # return render(request, 'dashboard/price.html',{"dishes":tp,"topic":top,"rest":rest,"shisha":ss,"top":ns})
 
         return render(request, 'dashboard/price.html',
-                      {"dishes": tp, "topic": top, "rest": rest, "shisha": ss, "top": ns})
+                      {"dishes": tp, "topic": top, "rest": rest, "shisha": ss, "top": ns, 'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
-    return render(request, 'dashboard/price.html')
+    return render(request, 'dashboard/price.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 @login_required(login_url='/login')
@@ -270,9 +282,9 @@ def shisha(request):
                 edited_dish.save()
                 tp = topic.objects.filter(restaurants=rest.id, name="shisha").all()
                 # return render(request, 'dashboard/shisha.html',{"dishes":tp,"topi":top,"rest":rest})
-        return render(request, 'dashboard/shisha.html', {"dishes": tp, "rest": rest, "shisha": ss, "top": ns})
+        return render(request, 'dashboard/shisha.html', {"dishes": tp, "rest": rest, "shisha": ss, "top": ns, 'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
-    return render(request, 'dashboard/shisha.html')
+    return render(request, 'dashboard/shisha.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 @login_required(login_url='/login')
@@ -290,9 +302,9 @@ def feedback(request):
             feedback_id = request.POST.get('id')
             review.objects.filter(id=feedback_id).delete()
 
-        return render(request, 'dashboard/feedback.html', {"feedback": feedback, "rest": rest, "shisha": ss, "top": ns})
+        return render(request, 'dashboard/feedback.html', {"feedback": feedback, "rest": rest, "shisha": ss, "top": ns, 'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
-    return render(request, 'dashboard/feedback.html')
+    return render(request, 'dashboard/feedback.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
 
 @login_required(login_url='/login')
@@ -313,6 +325,6 @@ def guests(request):
             GuestRegister.objects.get(id=guest_id).delete()
 
         return render(request, 'dashboard/guests.html',
-                      {"guest_users": guest_users, "rest": rest, "shisha": ss, "top": ns})
+                      {"guest_users": guest_users, "rest": rest, "shisha": ss, "top": ns, 'google_analytics_key': GOOGLE_ANALYTICS_KEY})
 
-    return render(request, 'dashboard/guests.html')
+    return render(request, 'dashboard/guests.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})

@@ -7,6 +7,14 @@
     <meta name='referrer' content='strict-origin-when-cross-origin' />
     <meta name="viewport" content="width=device-width" />
     <base href="/">
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ google_analytics_key }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ google_analytics_key }}');
+</script>
     <style type="text/css">
         .load {
                 position: fixed;

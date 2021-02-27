@@ -10,14 +10,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <title>Menulo</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ google_analytics_key }}"></script>
     {% include "components/StylesBlock.html" %}
     {% block extrastyle %}
-    
+
     {% endblock extrastyle %}
-    
-    
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', '{{ google_analytics_key }}');
+    </script>
+
+
 </head>
-<body >
+<body>
 
 
 {% include "components/Header.html" %}
@@ -28,11 +40,10 @@
 {% include "components/Footer.html" %}
 
 {% include "components/JavaScriptBlock.html" %}
-{% block javascriptblock %}	
+{% block javascriptblock %}
 
 {% endblock javascriptblock %}
 
-    
 
 </body>
 </html>
