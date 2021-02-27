@@ -15,6 +15,7 @@ from django.contrib.auth.models import User
 
 
 # Create your views here.
+GOOGLE_ANALYTICS_KEY = settings.GOOGLE_ANALYTICS_KEY
 
 
 def resturent(request, slug):
@@ -79,8 +80,10 @@ def resturent(request, slug):
                 "dish": dishes,
                 "sizes": sizes,
                 "prices": prices,
+                'google_analytics_key': GOOGLE_ANALYTICS_KEY
             }
 
             return render(request, 'resturent.html', context)
+
         else:
-            return render(request, 'resturent.html')
+            return render(request, 'resturent.html', {'google_analytics_key': GOOGLE_ANALYTICS_KEY})

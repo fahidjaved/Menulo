@@ -2,6 +2,14 @@
 
 
 <!--googleon: all-->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ google_analytics_key }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ google_analytics_key }}');
+</script>
 <link rel='stylesheet' id='cookie-law-info-table-css' href="{% static 'main/cookies/public/css/cookie-law-info-table.css' %}" type='text/css' media='all' />
 <script type='text/javascript' src="{% static 'main/js/jquery.selectbox.min.js' %}"></script>
 <script type='text/javascript'>
