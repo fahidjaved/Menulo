@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect
 from main.models import categories, topic, Restaurant, sub_categories, dish, review, size, price, Slider, GuestRegister
 from django.views.generic import DetailView
 from django.urls import resolve
-import numpy
 from django.http import HttpResponse, HttpResponseRedirect
 from django.views import View
 from django.contrib.auth.decorators import login_required
